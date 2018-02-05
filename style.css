@@ -1,0 +1,28 @@
+P {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-INDENT: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: deafult
+}
+A:link {
+	FONT-SIZE: 12px; COLOR: #101B59; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 12px; COLOR: #101B59; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #101B59; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+
+.lijevi {
+         FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+A.lijevi:link {
+	 FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.lijevi:visited {
+	 FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.lijevi:hover {
+	 FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.lijevi:active {
+	 FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
