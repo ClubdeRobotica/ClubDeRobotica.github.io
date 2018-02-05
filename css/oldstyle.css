@@ -5,18 +5,18 @@ body {
 	color:#000000;
 	font-weight:normal;
 	line-height:24px;
-	background:#000000;
+	background:#71726e;
 }
 div, p, span, a, h1, h2, h3, h4, h5, h6, form {
 	margin:0px;
 	padding:0px;
 }
 a {
-	color:#000000;
+	color:#072FCF;
 	text-decoration:underline;
 }
 a:hover {
-	color:#000000;
+	color:#072FCF;
 	text-decoration:none;
 }	
 .wrapper {
@@ -78,7 +78,7 @@ ul.nav li {
 	float:left;
 	display:block;
 	line-height:12px;
-	border-left:1px solid #000000;
+	border-left:1px solid #373632;
 }
 ul.nav li a {
 	font-family:Arial, Helvetica, sans-serif;
