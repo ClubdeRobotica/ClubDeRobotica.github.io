@@ -1,196 +1,103 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=windows-1250">
-    <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
-    <meta name="ProgId" content="FrontPage.Editor.Document">
-    <title>Ricky´s Web template 9</title>
-    <link href="style.css" type="text/css" rel="stylesheet">
-    <style>
- BODY {
-  scrollbar-arrow-color:094588;
-  scrollbar-shadow-color:f0f0f0;
-  scrollbar-face-color:f0f0f0;
-  scrollbar-highlight-color:094588;
-  scrollbar-darkshadow-color:094588;
-</style>
-  </head>
-  <body bottommargin="0" topmargin="0" rightmargin="0" leftmargin="0">
-    <table cellspacing="0" cellpadding="0" border="0" width="100%">
-      <tbody>
-        <tr>
-          <td width="100%"><img src="logoricky.gif" border="0" width="750" height="120"></td>
-        </tr>
-      </tbody>
-    </table>
-    <table cellspacing="0" cellpadding="0" border="0" bgcolor="#172886" background="pozadinatop.gif"
-      width="100%">
-      <tbody>
-        <tr>
-          <td width="100%">&nbsp;</td>
-        </tr>
-      </tbody>
-    </table>
-    <table cellspacing="0" cellpadding="0" border="0" width="100%">
-      <tbody>
-        <tr>
-          <td width="100%"><img src="lijevotop.gif" border="0" width="400" height="123"></td>
-        </tr>
-      </tbody>
-    </table>
-    <table cellspacing="0" cellpadding="0" border="0" width="100%">
-      <tbody>
-        <tr>
-          <td width="20%" valign="top">
-            <table cellspacing="0" cellpadding="0" border="0" bgcolor="#101B59"
-              width="198">
-              <tbody>
-                <tr>
-                  <td colspan="2" width="100%"><img src="lijevo.gif" border="0"
-                      width="198" height="15"></td>
-                </tr>
-                <tr>
-                  <td width="5%">&nbsp;</td>
-                  <td width="95%">&nbsp;</td>
-                </tr>
-                <tr>
-                  <td align="left" width="5%">
-                    <p style="margin-left: 25"><img src="tocka.gif" border="0" width="15"
-                        height="15"></p>
-                  </td>
-                  <td onmouseover="this.bgColor = '#9FA3BC';" onmouseout="this.bgColor = '#101B59';"
-                    width="95%"><font size="2" color="#FFFFFF" face="Verdana"><a
-                        href="index.htm" class="lijevi">Home</a></font></td>
-                </tr>
-                <tr>
-                  <td align="left" width="5%">&nbsp;</td>
-                  <td width="95%">&nbsp;</td>
-                </tr>
-                <tr>
-                  <td align="left" width="5%">
-                    <p style="margin-left: 25"><img src="tocka.gif" border="0" width="15"
-                        height="15"></p>
-                  </td>
-                  <td onmouseover="this.bgColor = '#9FA3BC';" onmouseout="this.bgColor = '#101B59';"
-                    width="95%"><font size="2" color="#FFFFFF" face="Verdana"><a
-                        href="index.htm" class="lijevi">Sobre Nosotros<br>
-                      </a></font></td>
-                </tr>
-                <tr>
-                  <td align="left" width="5%">&nbsp;</td>
-                  <td width="95%">&nbsp;</td>
-                </tr>
-                <tr>
-                  <td align="left" width="5%">
-                    <p style="margin-left: 25"><img src="tocka.gif" border="0" width="15"
-                        height="15"></p>
-                  </td>
-                  <td onmouseover="this.bgColor = '#9FA3BC';" onmouseout="this.bgColor = '#101B59';"
-                    width="95%"><font size="2" color="#FFFFFF" face="Verdana"><a
-                        href="index.htm" class="lijevi">Services</a></font></td>
-                </tr>
-                <tr>
-                  <td align="left" width="5%">&nbsp;</td>
-                  <td width="95%">&nbsp;</td>
-                </tr>
-                <tr>
-                  <td align="left" width="5%">
-                    <p style="margin-left: 25"><img src="tocka.gif" border="0" width="15"
-                        height="15"></p>
-                  </td>
-                  <td onmouseover="this.bgColor = '#9FA3BC';" onmouseout="this.bgColor = '#101B59';"
-                    width="95%"><font size="2" color="#FFFFFF" face="Verdana"><a
-                        href="index.htm" class="lijevi">Support</a></font></td>
-                </tr>
-                <tr>
-                  <td align="left" width="5%">&nbsp;</td>
-                  <td width="95%">&nbsp;</td>
-                </tr>
-                <tr>
-                  <td align="left" width="5%">
-                    <p style="margin-left: 25"><img src="tocka.gif" border="0" width="15"
-                        height="15"></p>
-                  </td>
-                  <td onmouseover="this.bgColor = '#9FA3BC';" onmouseout="this.bgColor = '#101B59';"
-                    width="95%"><font size="2" color="#FFFFFF" face="Verdana"><a
-                        href="index.htm" class="lijevi">Faq</a></font></td>
-                </tr>
-                <tr>
-                  <td align="left" width="5%">&nbsp;</td>
-                  <td width="95%">&nbsp;</td>
-                </tr>
-                <tr>
-                  <td align="left" width="5%">
-                    <p style="margin-left: 25"><img src="tocka.gif" border="0" width="15"
-                        height="15"></p>
-                  </td>
-                  <td onmouseover="this.bgColor = '#9FA3BC';" onmouseout="this.bgColor = '#101B59';"
-                    width="95%"><font size="2" color="#FFFFFF" face="Verdana"><a
-                        href="index.htm" class="lijevi">Contact us</a></font></td>
-                </tr>
-                <tr>
-                  <td width="5%">&nbsp;</td>
-                  <td width="95%">&nbsp;</td>
-                </tr>
-                <tr>
-                  <td width="5%">&nbsp;</td>
-                  <td width="95%">&nbsp;</td>
-                </tr>
-                <tr>
-                  <td width="5%">&nbsp;</td>
-                  <td width="95%">&nbsp;</td>
-                </tr>
-                <tr>
-                  <td width="5%">&nbsp;</td>
-                  <td width="95%">&nbsp;</td>
-                </tr>
-                <tr>
-                  <td width="5%">&nbsp;</td>
-                  <td width="95%">&nbsp;</td>
-                </tr>
-                <tr>
-                  <td width="30%">&nbsp;
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                  </td>
-                  <td width="80%">&nbsp;
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="2" width="100%"><img src="lijevo.gif" border="0"
-                      width="198" height="15"></td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-          <td width="80%" valign="top">
-            <table cellspacing="0" cellpadding="0" border="0" width="550">
-              <tbody>
-                <tr>
-                  <td width="100%"><span style="font-family: Verdana,Arial,Helvetica,sans-serif;">Modelo
-                      para la nueva pagina del club de robotica</span><br>
-                    <p style="margin-left: 30px; margin-right: 30px; margin-top: 0"><br>
-                    </p>
-                    <p>&nbsp;</p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <p>&nbsp;</p>
-            <p style="margin-left: 10" align="right"><br>
-            </p>
-            <p style="margin-left: 10" align="right"><br>
-            </p>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <center><span style="width: 100%; font-family: helvetica; font-size: 6px; Filter: Alpha(Opacity=0,FinishOpacity=0, Style=1);"><br>
-      </span></center>
-    <br>
-    <br>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Title goes here</title>
+  <meta name="description" content="Description of your site goes here">
+  <meta name="keywords" content="keyword1, keyword2, keyword3">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="wrapper">
+<div class="left-gap1"><img src="images/spacer.gif" alt="#" border="0"
+ height="1" width="6"></div>
+<div class="main">
+<div class="header">
+<div class="nav-area">
+<ul class="nav">
+  <li style="border: medium none ;"><a href="#">Homepage</a></li>
+  <li><a href="#">Blog</a></li>
+  <li><a href="#">Links</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Contact us<br>
+    </a></li>
+</ul>
+</div>
+<div class="banner-area"><img src="images/banner-1.jpg" alt="#"
+ border="0"></div>
+</div>
+<div class="mid">
+<div class="mid-left">
+<h3>Main Menu<br>
+</h3>
+<ul class="left-item">
+  <li><a href="index.html#">Link 1<br>
+    </a></li>
+  <li><a href="index.html#">Link 2<br>
+    </a></li>
+  <li><a href="index.html#">Link 3<br>
+    </a></li>
+  <li><a href="index.html#">Link 4<br>
+    </a></li>
+  <li><a href="index.html#">Link 5<br>
+    </a></li>
+  <li><a href="index.html#">Link 6<br>
+    </a></li>
+  <li><a href="index.html#">Link 7<br>
+    </a></li>
+</ul>
+<h3>Resources</h3>
+<ul class="left-item">
+  <li><a href="index.html#">Link 1<br>
+    </a></li>
+  <li><a href="index.html#">Link 2<br>
+    </a></li>
+  <li><a href="index.html#">Link 3<br>
+    </a></li>
+  <li><a href="index.html#">Link 4<br>
+    </a></li>
+  <li><a href="index.html#">Link 5<br>
+    </a></li>
+  <li><a href="index.html#">Link 6<br>
+    </a></li>
+  <li><a href="index.html#">Link 7<br>
+    </a></li>
+</ul>
+</div>
+<div class="mid-right">
+<h1>Welcome to our website</h1>
+<p class="txt-1"> Lorem ipsum dolor sit amet, consectetur adipiscing
+elit. Suspendisse id purus nisi, in rutrum nunc. Donec non orci eros,
+ut sollicitudin risus. Vivamus at lacinia enim. Nam tincidunt nisl eget
+erat sollicitudin vitae accumsan felis eleifend. </p>
+<p class="txt-1"> Nam sit amet arcu nisi. Proin sagittis, nisi sed
+sollicitudin elementum, urna justo porta enim, nec semper massa nunc
+non eros. Nullam molestie, quam quis egestas porta, ligula elit laoreet
+ante, a convallis lectus sem volutpat urna. Donec congue purus placerat
+quam sodales quis suscipit leo ullamcorper. </p>
+<br>
+<h1>Lorem ipsum dolor</h1>
+<p class="txt-1"> Lorem ipsum dolor sit amet, consectetur adipiscing
+elit. Suspendisse id purus nisi, in rutrum nunc. Donec non orci eros,
+ut sollicitudin risus. Vivamus at lacinia enim. Nam tincidunt nisl eget
+erat sollicitudin vitae accumsan felis eleifend. </p>
+<p class="txt-1"> Nam sit amet arcu nisi. Proin sagittis, nisi sed
+sollicitudin elementum, urna justo porta enim, nec semper massa nunc
+non eros. Nullam molestie, quam quis egestas porta, ligula elit laoreet
+ante, a convallis lectus sem volutpat urna. Donec congue purus placerat
+quam sodales quis suscipit leo ullamcorper. </p>
+</div>
+</div>
+<div class="footer">
+<p class="copyright-text">Copyright 2014. Designed by <a target="_blank"
+ href="http://www.htmltemplates.net/">html templates</a></p>
+</div>
+</div>
+<div class="right-gap1"><img src="images/spacer.gif" alt="#" border="0"
+ height="1" width="6"></div>
+</div>
+
+<br>
+
+</body>
 </html>
