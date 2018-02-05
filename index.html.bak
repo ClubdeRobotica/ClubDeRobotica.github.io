@@ -1,6 +1,9 @@
 <html>
   <head>
-    <title>Club de Robotica UTN-FRC</title>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1250">
+    <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+    <meta name="ProgId" content="FrontPage.Editor.Document">
+    <title>Ricky´s Web template 9</title>
     <link href="style.css" type="text/css" rel="stylesheet">
     <style>
  BODY {
@@ -9,13 +12,13 @@
   scrollbar-face-color:f0f0f0;
   scrollbar-highlight-color:094588;
   scrollbar-darkshadow-color:094588;
-</style> </head>
+</style>
+  </head>
   <body bottommargin="0" topmargin="0" rightmargin="0" leftmargin="0">
     <table cellspacing="0" cellpadding="0" border="0" width="100%">
       <tbody>
         <tr>
-          <td width="100%"><img src="logoricky.gif" border="0" width="750"
-              height="120"></td>
+          <td width="100%"><img src="logoricky.gif" border="0" width="750" height="120"></td>
         </tr>
       </tbody>
     </table>
