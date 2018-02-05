@@ -83,7 +83,7 @@
         <section id="three">
           <div class="container">
             <h3>Nuestros Proyectos</h3>
-            <p>Intro sobre los proyectos en los que estamos trabajando</p>
+            <p>Necesito sugerencias acá, creo que estaría bueno poner una lista de todos los proyectos con un link a una wiki del proyecto, mas arriba para ordenar mejor se pueden dividir los proyectos en categorías</p>
             <div class="features">
               <article> <a href="#" class="image"><img src="images/pic01.jpg" alt=""></a>
                 <div class="inner">
@@ -112,20 +112,20 @@
         <section id="four">
           <div class="container">
             <h3>Contactanos</h3>
-            <p>Blalblalba.</p>
+            <p>Esto no me funca, se puede poner un texto introductorio y un link a un google form para que nos contacten directamente</p>
             <form method="post" action="#">
               <div class="row uniform">
-                <div class="6u 12u(xsmall)"><input name="name" id="name" placeholder="Name"
+                <div class="6u 12u(xsmall)"><input name="name" id="name" placeholder="Nombre"
                     type="text"></div>
                 <div class="6u 12u(xsmall)"><input name="email" id="email" placeholder="Email"
                     type="email"></div>
               </div>
               <div class="row uniform">
-                <div class="12u"><input name="subject" id="subject" placeholder="Subject"
+                <div class="12u"><input name="subject" id="subject" placeholder="Asunto"
                     type="text"></div>
               </div>
               <div class="row uniform">
-                <div class="12u"><textarea name="message" id="message" placeholder="Message"
+                <div class="12u"><textarea name="message" id="message" placeholder="Mensaje"
 rows="6"></textarea></div>
               </div>
               <div class="row uniform">
@@ -168,7 +168,7 @@ rows="6"></textarea></div>
       <section id="footer">
         <div class="container">
           <ul class="copyright">
-            <li>© Untitled. All rights reserved.</li>
+            <li> </li>
             <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
           </ul>
         </div>
