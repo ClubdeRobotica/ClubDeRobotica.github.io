@@ -2387,14 +2387,14 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #5ed0b1;
+				background-color: #0174DF;
 			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #39c29d;
+				background-color: #045FB4;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2462,7 +2462,7 @@
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background: #0B0B61;
-		color: #d1f1e9;
+		color: #CED8F6;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2481,11 +2481,11 @@
 			}
 
 		#header header p {
-			color: #b6e9dc;
+			color: #CED8F6;
 		}
 
 		#header a {
-			color: #d1f1e9;
+			color: #CED8F6;
 		}
 
 			#header a:hover {
@@ -2512,7 +2512,7 @@
 			}
 
 			#header > header p {
-				color: #d1f1e9;
+				color: #CED8F6;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2533,7 +2533,7 @@
 			}
 
 				#header > footer .icons li a {
-					color: #b6e9dc;
+					color: #CED8F6;
 				}
 
 		#header > nav {
@@ -2550,7 +2550,7 @@
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb0;
+					border-top: solid 2px #0431B4;
 					display: block;
 					padding: 0;
 				}
@@ -2740,7 +2740,7 @@
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
-				backface-visibility: hidden;
+				backface-visibility: hidden
 				-moz-transition: -moz-transform 0.5s ease;
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
