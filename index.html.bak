@@ -1,103 +1,81 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Title goes here</title>
-  <meta name="description" content="Description of your site goes here">
-  <meta name="keywords" content="keyword1, keyword2, keyword3">
-  <link href="css/style.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-<div class="wrapper">
-<div class="left-gap1"><img src="images/spacer.gif" alt="#" border="0"
- height="1" width="6"></div>
-<div class="main">
-<div class="header">
-<div class="nav-area">
-<ul class="nav">
-  <li style="border: medium none ;"><a href="#">Homepage</a></li>
-  <li><a href="#">Blog</a></li>
-  <li><a href="#">Links</a></li>
-  <li><a href="#">About</a></li>
-  <li><a href="#">Contact us<br>
-    </a></li>
-</ul>
-</div>
-<div class="banner-area"><img src="images/banner-1.jpg" alt="#"
- border="0"></div>
-</div>
-<div class="mid">
-<div class="mid-left">
-<h3>Main Menu<br>
-</h3>
-<ul class="left-item">
-  <li><a href="index.html#">Link 1<br>
-    </a></li>
-  <li><a href="index.html#">Link 2<br>
-    </a></li>
-  <li><a href="index.html#">Link 3<br>
-    </a></li>
-  <li><a href="index.html#">Link 4<br>
-    </a></li>
-  <li><a href="index.html#">Link 5<br>
-    </a></li>
-  <li><a href="index.html#">Link 6<br>
-    </a></li>
-  <li><a href="index.html#">Link 7<br>
-    </a></li>
-</ul>
-<h3>Resources</h3>
-<ul class="left-item">
-  <li><a href="index.html#">Link 1<br>
-    </a></li>
-  <li><a href="index.html#">Link 2<br>
-    </a></li>
-  <li><a href="index.html#">Link 3<br>
-    </a></li>
-  <li><a href="index.html#">Link 4<br>
-    </a></li>
-  <li><a href="index.html#">Link 5<br>
-    </a></li>
-  <li><a href="index.html#">Link 6<br>
-    </a></li>
-  <li><a href="index.html#">Link 7<br>
-    </a></li>
-</ul>
-</div>
-<div class="mid-right">
-<h1>Welcome to our website</h1>
-<p class="txt-1"> Lorem ipsum dolor sit amet, consectetur adipiscing
-elit. Suspendisse id purus nisi, in rutrum nunc. Donec non orci eros,
-ut sollicitudin risus. Vivamus at lacinia enim. Nam tincidunt nisl eget
-erat sollicitudin vitae accumsan felis eleifend. </p>
-<p class="txt-1"> Nam sit amet arcu nisi. Proin sagittis, nisi sed
-sollicitudin elementum, urna justo porta enim, nec semper massa nunc
-non eros. Nullam molestie, quam quis egestas porta, ligula elit laoreet
-ante, a convallis lectus sem volutpat urna. Donec congue purus placerat
-quam sodales quis suscipit leo ullamcorper. </p>
-<br>
-<h1>Lorem ipsum dolor</h1>
-<p class="txt-1"> Lorem ipsum dolor sit amet, consectetur adipiscing
-elit. Suspendisse id purus nisi, in rutrum nunc. Donec non orci eros,
-ut sollicitudin risus. Vivamus at lacinia enim. Nam tincidunt nisl eget
-erat sollicitudin vitae accumsan felis eleifend. </p>
-<p class="txt-1"> Nam sit amet arcu nisi. Proin sagittis, nisi sed
-sollicitudin elementum, urna justo porta enim, nec semper massa nunc
-non eros. Nullam molestie, quam quis egestas porta, ligula elit laoreet
-ante, a convallis lectus sem volutpat urna. Donec congue purus placerat
-quam sodales quis suscipit leo ullamcorper. </p>
-</div>
-</div>
-<div class="footer">
-<p class="copyright-text">Copyright 2014. Designed by <a target="_blank"
- href="http://www.htmltemplates.net/">html templates</a></p>
-</div>
-</div>
-<div class="right-gap1"><img src="images/spacer.gif" alt="#" border="0"
- height="1" width="6"></div>
-</div>
-
-<br>
-
-</body>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Club de Robotica UTN-FRC</title>
+    <meta name="description" content="Description of your site goes here">
+    <meta name="keywords" content="keyword1, keyword2, keyword3">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="left-gap1"><img src="images/spacer.gif" alt="#" border="0" width="6"
+          height="1"></div>
+      <div class="main">
+        <div class="header">
+          <div class="nav-area">
+            <ul class="nav">
+              <li style="border: medium none ;"><a href="#">Homepage</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Links</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact us<br>
+                </a></li>
+            </ul>
+          </div>
+          <div class="banner-area"><img src="images/banner-1.jpg" alt="#" style="width: 940px; height: 170px;"
+              border="0"></div>
+        </div>
+        <div class="mid">
+          <div class="mid-left">
+            <h3>Main Menu<br>
+            </h3>
+            <ul class="left-item">
+              <li><a href="index.html#">Proyectos<br>
+                </a></li>
+              <li><a href="index.html#">Presentaciones<br>
+                </a></li>
+            </ul>
+            <h3>Resources</h3>
+            <ul class="left-item">
+              <li><a href="index.html#">Link 1<br>
+                </a></li>
+              <li><a href="index.html#">Link 2<br>
+                </a></li>
+              <li><a href="index.html#">Link 3<br>
+                </a></li>
+              <li><a href="index.html#">Link 4<br>
+                </a></li>
+              <li><a href="index.html#">Link 5<br>
+                </a></li>
+              <li><a href="index.html#">Link 6<br>
+                </a></li>
+              <li><a href="index.html#">Link 7<br>
+                </a></li>
+            </ul>
+          </div>
+          <div class="mid-right">
+            <h1>Club de Robótica UTN-FRC</h1>
+            <align=center>
+            	<p class="txt-1"><img src="images/botito-pop.png" alt="Logo"
+                title="Logo" style="width: 278px; height: 339px;"></p>
+            	<p class="txt-1"><br>
+            </align>
+            </p>
+            <br>
+            <h1>Actividades 2018</h1>
+            <p class="txt-1"> Información sobre las actividades para este año
+            </p>
+          </div>
+        </div>
+        <div class="footer">
+          <p class="copyright-text">Copyright 2014. Designed by <a target="_blank"
+              href="http://www.htmltemplates.net/">html templates</a></p>
+        </div>
+      </div>
+      <div class="right-gap1"><img src="images/spacer.gif" alt="#" border="0" width="6"
+          height="1"></div>
+    </div>
+    <br>
+  </body>
 </html>
