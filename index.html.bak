@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<!--
-	Read Only by HTML5 UP	html5up.net | @ajlkn	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)-->
+
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -84,19 +83,38 @@
           <div class="container">
             <h3>Nuestros Proyectos</h3>
             <p>Necesito sugerencias acá, creo que estaría bueno poner una lista de todos los proyectos con un link a una wiki del proyecto, mas arriba para ordenar mejor se pueden dividir los proyectos en categorías</p>
-            <div class="features">
-              <article> <a href="#" class="image"><img src="images/pic01.jpg" alt=""></a>
-                <div class="inner">
-                  <h4>3D printed Cubsat</h4>
-                  <p>El objetivo es fomentar el desarrollo regional de aplicaciones espaciales para fines académicos y económicos, basados en el standard CubeSat, haciendo uso de  tecnología de impresión 3D y COTS.
-</p>
-                </div>
-              </article>
+            <div class="features">             
               <article> <a href="#" class="image"><img src="images/pic02.jpg" alt=""></a>
                 <div class="inner">
                   <h4>Sail deployment deorbit system by solenoids for microsatellites</h4>
                   <p>Proyecto finalista en el <a href="http://unisec-global.org/dmc/index.html">2nd Debris Mitigation Contest</a>. Con el objetivo de mitigar los desechos espaciales estamos desarrollando un dispositivo de-orbitación para microsatélites.
                   </p>
+                </div>
+              </article>
+               <article> <a href="#" class="image"><img src="images/pic01.jpg" alt=""></a>
+                <div class="inner">
+                  <h4>3D printed Cubsat</h4>
+                  <p>
+                    El objetivo es fomentar el desarrollo regional de aplicaciones espaciales para fines académicos y económicos, basados en el standard CubeSat, haciendo uso de  tecnología de impresión 3D y COTS.
+									</p>
+                </div>
+              </article>
+              <article> <a href="#" class="image"><img src="images/pic03.jpg" alt=""></a>
+                <div class="inner">
+                  <h4>RSL</h4>
+                  <p>Blablalbla</p>
+                </div>
+              </article>
+              <article> <a href="#" class="image"><img src="images/pic03.jpg" alt=""></a>
+                <div class="inner">
+                  <h4>VRTD</h4>
+                  <p>Blablalbla</p>
+                </div>
+              </article>
+              <article> <a href="#" class="image"><img src="images/pic03.jpg" alt=""></a>
+                <div class="inner">
+                  <h4>Robot Seguidor de Luz</h4>
+                  <p>Blablalbla</p>
                 </div>
               </article>
               <article> <a href="#" class="image"><img src="images/pic03.jpg" alt=""></a>
