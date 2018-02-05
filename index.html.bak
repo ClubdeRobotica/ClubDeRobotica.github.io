@@ -56,8 +56,8 @@
           </div>
           <div class="mid-right">
             <h1>Club de Robótica UTN-FRC</h1>
-            <p class="txt-1"> <align="center">. <img src="images/botito-pop.png"
-                  alt="Logo" title="Logo" style="width: 278px; height: 339px;"></align="center"></p>
+            <p class="txt-1" style="text-align: center;">&nbsp; <align="center"><img
+                  src="images/botito-pop.png" alt="Logo" title="Logo" style="width: 278px; height: 339px;"></align="center"></p>
             <p class="txt-1"><br>
               El <b>Club de Robotica</b> es un emprendimiento extracurricular,
               llevado a cabo por estudiantes de la <b>UTN-FRC</b>, orientado al
