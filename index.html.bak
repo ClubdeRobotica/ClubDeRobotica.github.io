@@ -34,7 +34,7 @@
                 class="label">Github</span></a></li>
           <li><a href="mailto:clubrobotica.utnfrc@gmail.com" class="icon fa-envelope"><span
                 class="label">Email</span></a></li>
-          <li><a href="https://github.com/ClubdeRobotica/wiki/wiki" class="icon fa-book"><span
+          <li><a href="https://github.com/ClubdeRobotica/wiki/wiki" class="icon fa-wikipedia-w"><span
                 class="label">Wiki</span></a></li>
         </ul>
       </footer>
