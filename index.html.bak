@@ -100,14 +100,15 @@
             <p> Los proyectos en los que mas estamos trabajando en la actualidad
               son los siguientes: </p>
             <div class="features">
-              <article> <a href="https://github.com/ClubdeRobotica/wiki/wiki/Deorbit" class="image"><img src="images/pic02.jpg" alt=""></a>
+              <article> <a href="https://github.com/ClubdeRobotica/wiki/wiki/Deorbit"
+                  class="image"><img src="images/pic02.jpg" alt=""></a>
                 <div class="inner">
                   <h4>Sail deployment deorbit system by solenoids for
                     microsatellites</h4>
                   <p>Proyecto finalista en el <a href="http://unisec-global.org/dmc/index.html">2nd
                       Debris Mitigation Contest</a>. Con el objetivo de mitigar
                     los desechos espaciales estamos desarrollando un dispositivo
-                    de-orbitación para microsatélites. </p>
+                    de de-orbitación para microsatélites. </p>
                 </div>
               </article>
               <article> <a href="#" class="image"><img src="images/pic01.jpg" alt=""></a>
@@ -123,7 +124,11 @@
                   class="image"><img src="images/pic03.jpg" alt=""></a>
                 <div class="inner">
                   <h4>RSL</h4>
-                  <p>Blablalbla</p>
+                  <p> El objetivo es consolidar una plataforma para desarrollo
+                    de robots seguidores de línea. En 2017 participamos con un
+                    desarrollo en FPGA de las&nbsp;<a href="http://www.frc.utn.edu.ar/jar2017/?pIs=2925"
+                      target="_blank">IX JAR</a> donde obutivimos el tercer
+                    premio en la exposición de robots. </p>
                 </div>
               </article>
               <article> <a href="https://github.com/ClubdeRobotica/wiki/wiki/Veh%C3%ADculo-Robotizado-con-Tracci%C3%B3n-Diferencial"
@@ -188,19 +193,24 @@ rows="6"></textarea></div>
       <!-- Footer -->
       <section id="footer">
         <ul class="icons">
-          <li style="text-align: center;"><br>
-          </li>
-          <li style="text-align: center;"><a href="https://www.facebook.com/groups/247066238661652/"
-              class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-          <li style="text-align: center;"><a href="https://www.instagram.com/cdr_frc_utn/"
-              class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-          <li style="text-align: center;"><a href="https://github.com/ClubdeRobotica"
-              class="icon fa-github"><span class="label">Github</span></a></li>
-          <li style="text-align: center;"><a href="mailto:clubrobotica.utnfrc@gmail.com"
-              class="icon fa-envelope"><span class="label">Email</span></a></li>
-          <li><a href="https://github.com/ClubdeRobotica/wiki/wiki" 
-              class="icon fa-wikipedia-w"><span class="label">Wiki</span></a></li>
+          <li><a href="https://www.facebook.com/groups/247066238661652/" class="icon fa-facebook"><span
+                class="label">Facebook</span></a></li>
+          <li><a href="https://www.instagram.com/cdr_frc_utn/" class="icon fa-instagram"><span
+                class="label">Instagram</span></a></li>
+          <li><a href="https://github.com/ClubdeRobotica" class="icon fa-github"><span
+                class="label">Github</span></a></li>
+          <li><a href="mailto:clubrobotica.utnfrc@gmail.com" class="icon fa-envelope"><span
+                class="label">Email</span></a></li>
+          <li><a href="https://github.com/ClubdeRobotica/wiki/wiki" class="icon fa-wikipedia-w"><span
+                class="label">Wiki</span></a></li>
         </ul>
+        <!-- <ul class="icons">
+          <li style="text-align: center;"><br>          </li>	  <li class="icon fa-facebook"><a href="https://www.facebook.com/groups/247066238661652/"</a></li>          <li class="icon fa-instagram"><a href="https://www.instagram.com/cdr_frc_utn/"</a></li>
+          <li class="icon fa-github"><a href="https://github.com/ClubdeRobotica"</a></li>          <li class="icon fa-envelope"><a href="mailto:clubrobotica.utnfrc@gmail.com"</a></li>          <li class="icon fa-wikipedia-w"><a href="https://github.com/ClubdeRobotica/wiki/wiki"</a></li>           -->
+        <!-- 
+	<li style="text-align: center;"><a href="https://www.facebook.com/groups/247066238661652/"              class="icon fa-facebook"><span class="label">Facebook</span></a></li>          <li style="text-align: center;"><a href="https://www.instagram.com/cdr_frc_utn/"              class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+          <li style="text-align: center;"><a href="https://github.com/ClubdeRobotica"              class="icon fa-github"><span class="label">Github</span></a></li>          <li style="text-align: center;"><a href="mailto:clubrobotica.utnfrc@gmail.com"              class="icon fa-envelope"><span class="label">Email</span></a></li>
+          <li><a href="https://github.com/ClubdeRobotica/wiki/wiki"               class="icon fa-wikipedia-w"><span class="label">Wiki</span></a></li>	-->
       </section>
     </div>
     <!-- Scripts -->
@@ -211,6 +221,5 @@ rows="6"></textarea></div>
     <script src="assets/js/util.js"></script>
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
     <script src="assets/js/main.js"></script>
-    
   </body>
 </html>
