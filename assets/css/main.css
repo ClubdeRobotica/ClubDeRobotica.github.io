@@ -2108,7 +2108,7 @@
 		ul.icons {
 			cursor: default;
 			list-style: none;
-			padding-left: 0;
+			padding-left: 40%; /*estaba en 0, lo cambias por 40% para que se centre*/
 		}
 
 			ul.icons li {
