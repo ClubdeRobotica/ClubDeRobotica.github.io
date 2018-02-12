@@ -2108,7 +2108,7 @@
 		ul.icons {
 			cursor: default;
 			list-style: none;
-			padding-left: 40%; /*estaba en 0, lo cambias por 40% para que se centre*/
+			padding-left: 0; /*estaba en 0, lo cambias por 40% para que se centre*/
 		}
 
 			ul.icons li {
@@ -2622,7 +2622,7 @@
 		
 	}
         #footer .icons li{
-		display: block;
+		display: inline-block;
                 /*margin-left: auto;
                 margin-right: auto;*/
                 width: 40%;
