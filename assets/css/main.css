@@ -2622,10 +2622,11 @@
 		
 	}
         #footer .icons li{
-		display: inline-block;
-                /*margin-left: auto;
-                margin-right: auto;*/
-                width: 40%;
+		position: relative;
+		color: #000000;
+                margin-left: auto;
+                margin-right: auto;
+               /* width: 40%; */
         }
 
 		
