@@ -2619,7 +2619,14 @@
 		color: #c0c0c0;
 		overflow: hidden;
 		padding: 4em 0 2em 0;
+		
 	}
+        #footer .icons li{
+		display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 40%;
+        }
 
 		
 
@@ -2982,15 +2989,7 @@
 					#footer .copyright li:first-child {
 						margin-top: 0;
 					}
-                /* Prueba de estilo para que los iconos del footer queden centrados */
-                                #footer .icons li{
-                                        display: block;
-                                        margin-left: auto;
-                                        margin-right: auto;
-                                        width: 40%;
-                                        }
-                
-                /* Fin de la modificacion */
+          
 
 		/* Off-Canvas Navigation */
 
