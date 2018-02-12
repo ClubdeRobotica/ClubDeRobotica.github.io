@@ -1574,7 +1574,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #0B0B61 !important;
+			color: #5151ea !important; /* estaba #0B0B61 */
 		}
 
 	strong, b {
