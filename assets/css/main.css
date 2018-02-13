@@ -2607,10 +2607,10 @@
 		background-size: cover;
 		content: '';
 		display: block;
-		height: 15em;
+		height: 12em;
 		width: 100%;
+        
 	}
-
 /* Footer */
 
 	#footer {
