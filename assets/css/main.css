@@ -1981,14 +1981,6 @@
 		.icon > .label {
 			display: none;
 		}
-	.social {
-		border-bottom: none;
-		position: relative;
-	}
-		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-		}
 
 /* Image */
 
@@ -2132,13 +2124,6 @@
 				ul.icons li .icon:before {
 					font-size: 1.25em;
 				}
-/* Agregado la seccion social, elimina bordes, y en principio los acomoda como a icons */		
-		ul.social {
-			list-style: none;
-		}
-			ul.icons li {
-				display: inline-block;
-				padding:0;
 
 		ul.actions {
 			cursor: default;
@@ -2637,8 +2622,8 @@
 		/*padding-left: 40%; /*centra desde la izquierda digamos, debe haber una mejor manera seguro*/
 	}
  
-	#footer .icons ul li{ /* centra toda la lista de iconos ul, y no cada icono individual que era con li */
-		display: block;
+	#footer .social{ 
+		position: relative;
 		/*color: #000000;*/
                 margin-left: auto;
                 margin-right: auto;
@@ -2691,8 +2676,11 @@
 				padding: 4em 0 2em 0;
 			}
 		/* Footer - prueba- */
-			#footer .icons {
-			padding-left: 40%;
+			#footer .social {
+			/*	margin-left: auto;
+				margin-right: auto;
+				width: 40%;*/
+				padding-left: 40%;
 			}
 
 	}
@@ -3005,10 +2993,11 @@
 
 			#footer {
 				text-align: center;
+				padding-left: 0;
 			}
-				#footer .icons ul{
+			/*	#footer .icons ul li{
 					padding-left: 0;
-				}
+				} */
 
 				#footer .copyright li {
 					border-left: 0;
