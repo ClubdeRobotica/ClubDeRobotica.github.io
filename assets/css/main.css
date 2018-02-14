@@ -2991,6 +2991,9 @@
 			#footer {
 				text-align: center;
 			}
+				#footer .icons ul{
+					padding-left: 0;
+				}
 
 				#footer .copyright li {
 					border-left: 0;
