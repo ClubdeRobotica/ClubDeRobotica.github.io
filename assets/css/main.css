@@ -2660,7 +2660,7 @@
 		/* Footer centrado */
 			#footer {
 				text-align: center;
-				padding-left: 40%; /* para pantallas grandes, trata de centrar el footer */
+				padding-left: 0; /* para pantallas grandes, trata de centrar el footer */
 			}
 
 	}
