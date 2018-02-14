@@ -1981,6 +1981,14 @@
 		.icon > .label {
 			display: none;
 		}
+	.social {
+		border-bottom: none;
+		position: relative;
+	}
+		.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+		}
 
 /* Image */
 
@@ -2124,6 +2132,13 @@
 				ul.icons li .icon:before {
 					font-size: 1.25em;
 				}
+/* Agregado la seccion social, elimina bordes, y en principio los acomoda como a icons */		
+		ul.social {
+			list-style: none;
+		}
+			ul.icons li {
+				display: inline-block;
+				padding:0;
 
 		ul.actions {
 			cursor: default;
