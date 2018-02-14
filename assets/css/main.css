@@ -2619,26 +2619,8 @@
 		color: #000000;
 		overflow: hidden;
 		padding: 4em 0 2em 0;
-		/*padding-left: 40%; /*centra desde la izquierda digamos, debe haber una mejor manera seguro*/
 	}
- 
-	#footer .social{ 
-		position: relative;
-		/*color: #000000;*/
-                margin-left: auto;
-                margin-right: auto;
-                width: 40%;
-        }
-/* Probando aqui si responde diferente */
-/*	#footer .icons li{
-		padding-left:0;
-	}
-	#footer .icons li > :last-child{
-		padding-right:0;
-	}
-		*/
-/* Fin prueba */
-		
+
 
 /* XLarge */
 
@@ -2675,12 +2657,12 @@
 			#main > section > .container {
 				padding: 4em 0 2em 0;
 			}
-		/* Footer - prueba- */
-			#footer .social {
-			/*	margin-left: auto;
+		/* Footer - prueba- 
+			#footer .icons {
+				margin-left: auto;
 				margin-right: auto;
-				width: 40%;*/
-				padding-left: 40%;
+				width: 40%;
+				/*padding-left: 40%; */
 			}
 
 	}
@@ -2705,6 +2687,11 @@
 
 			#wrapper {
 				padding-right: 20em;
+			}
+		/* Footer centrado */
+			#footer {
+				text-align: center;
+				padding-left: 0;
 			}
 
 	}
@@ -2789,6 +2776,11 @@
 
 			#one:before {
 				height: 10em;
+			}
+		/* Footer (lo centra también) */
+			#footer {
+				text-align: center;
+				padding-left: 0;
 			}
 
 		/* Off-Canvas Navigation */
@@ -2878,7 +2870,7 @@
 				-ms-transform: translateX(0);
 				transform: translateX(0);
 			}
-
+		
 	}
 
 /* Small */
