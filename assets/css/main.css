@@ -2637,8 +2637,8 @@
 		/*padding-left: 40%; /*centra desde la izquierda digamos, debe haber una mejor manera seguro*/
 	}
  
-	#footer .social{ 
-		position: relative;
+	#footer .icons ul li{ /* centra toda la lista de iconos ul, y no cada icono individual que era con li */
+		display: block;
 		/*color: #000000;*/
                 margin-left: auto;
                 margin-right: auto;
@@ -2691,11 +2691,11 @@
 				padding: 4em 0 2em 0;
 			}
 		/* Footer - prueba- */
-			#footer .social {
-			/*	margin-left: auto;
+			#footer .icons {
+				margin-left: auto;
 				margin-right: auto;
-				width: 40%;*/
-				padding-left: 40%;
+				width: 40%;
+			/*padding-left: 40%;*/
 			}
 
 	}
