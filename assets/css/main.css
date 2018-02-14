@@ -2618,18 +2618,26 @@
 		border-top: 0;
 		color: #000000;
 		overflow: hidden;
-		/*padding: 4em 0 2em 0;*/
-		padding-left: 40%; /*centra desde la izquierda digamos, debe haber una mejor manera seguro*/
+		padding: 4em 0 2em 0;
+		/*padding-left: 40%; /*centra desde la izquierda digamos, debe haber una mejor manera seguro*/
 	}
  
-	#footer .icons ul{ /* centra toda la lista de iconos ul, y no cada icono individual que era con li */
+	#footer .icons ul li{ /* centra toda la lista de iconos ul, y no cada icono individual que era con li */
 		display: block;
 		/*color: #000000;*/
                 margin-left: auto;
                 margin-right: auto;
                 width: 40%;
         }
-
+/* Probando aqui si responde diferente */
+	#footer .icons li{
+		padding-left:0;
+	}
+	#footer .icons li > :last-child{
+		padding-right:0;
+	}
+		
+/* Fin prueba */
 		
 
 /* XLarge */
@@ -2666,6 +2674,10 @@
 
 			#main > section > .container {
 				padding: 4em 0 2em 0;
+			}
+		/* Footer - prueba- */
+			#footer .icons {
+			padding-left: 40%;
 			}
 
 	}
