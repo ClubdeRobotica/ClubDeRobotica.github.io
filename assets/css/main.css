@@ -2692,10 +2692,7 @@
 			}
 		/* Footer - prueba- */
 			#footer .icons {
-				margin-left: auto;
-				margin-right: auto;
-				width: 40%;
-			/*padding-left: 40%;*/
+			padding-left: 40%;
 			}
 
 	}
