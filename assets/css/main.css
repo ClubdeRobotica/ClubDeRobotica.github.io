@@ -2677,7 +2677,10 @@
 			}
 		/* Footer - prueba- */
 			#footer .icons {
-			padding-left: 40%;
+				margin-left: auto;
+				margin-right: auto;
+				width: 40%;
+			/*padding-left: 40%;*/
 			}
 
 	}
