@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es-ar">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Club de Robotica - UTN-FRC</title>
@@ -7,9 +7,9 @@
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="assets/css/main.css">
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <meta name="keywords" content="robotica, club, cdr, utn, frc">
   </head>
-  <body>
-    <!-- Header -->
+  <body> <!-- Header -->
     <section id="header">
       <header> <span class="image avatar"><img src="images/botito-pop.png" alt=""></span>
         <h1 id="logo"><a href="#">Club de Robotica</a></h1>
@@ -21,7 +21,9 @@
           <li><a href="#one" class="active">About</a></li>
           <li><a href="#two">Reuniones 2018</a></li>
           <li><a href="#three">Nuestros Proyectos</a></li>
-          <li><span style="color: white;">Formar parte del CdR</span></li>
+          <li><a href="#four">Como participar</a></li>
+          <!--Así se el estilo se pone solo del CSS, y queda navegable como los otros items -->
+          <!-- <span style="color: white;">Formar parte del CdR</span></li> -->
         </ul>
       </nav>
       <footer>
@@ -59,7 +61,7 @@
               invitado. En relación directa con la carrera de Ingeniería
               Electrónica, el CdR busca introducir a los alumnos de los primeros
               años a la ingeniería de aplicación (y así mejorar el nivel de los
-              estudiantes que entran a tercer año y comienzas sus actividades de
+              estudiantes que entran a tercer año y comienzan sus actividades de
               laboratorio) y brindar apoyo a estudiantes de los cursos
               superiores que deseen realizar proyectors integradores en el área
               de la robótica. El CdR también busca integrar a estudiantes de
@@ -72,32 +74,38 @@
         <section id="two">
           <div class="container">
             <h3>Reuniones 2018</h3>
-            <p>Nos juntamos todos los ## en el ## de la UTN</p>
-            <ul class="feature-icons">
-              <li class="fa-code">Desarrollo de firmwares</li>
-              <li class="fa-cubes">Desarrollos de hardware</li>
-              <li class="fa-book">Documentos Publicos</li>
-              <li class="fa-coffee">Reuniones</li>
-              <li class="fa-bolt">Lightning bolt</li>
-              <li class="fa-users">Miembros</li>
-            </ul>
-          </div>
+            <p>Todos los ## en el ## nos juntamos en el Edificio Central de la
+              UTN-FRC</p>
+            <align = center>
+            <p> Maestro M. Lopez esq. Cruz Roja Argentina
+                Ciudad Universitaria - Córdoba Capital </p>
+            <iframe src="https://www.google.com/maps/embed?pb=%211m10%211m8%211m3%211d850.9933969957888%212d-64.19293905233356%213d-31.44239406049496%213m2%211i1024%212i768%214f13.1%215e0%213m2%211ses-419%212sar%214v1518667141719"
+              style="border:5" allowfullscreen="" width="400" height="300" frameborder="0"></iframe>
+              </align>
+            <!--
+            <ul class="feature-icons">              <li class="fa-code">Desarrollo de firmwares</li>              <li class="fa-cubes">Desarrollos de hardware</li>              <li class="fa-book">Documentos Publicos</li>              <li class="fa-coffee">Reuniones</li>              <li class="fa-bolt">Lightning bolt</li>              <li class="fa-users">Miembros</li>            </ul>
+						--> </div>
         </section>
         <!-- Three -->
         <section id="three">
           <div class="container">
             <h3>Nuestros Proyectos</h3>
-            <p>La sección <b>Proyectos</b> del CdR está dividida en dos
-              sub-secciones:</p>
-            <ul>
-              <li type="circle">Proyectos Institucionales</li>
-              <li type="circle">Proyectos Independientes</li>
-            </ul>
-            <p> Todo aquel que haya trabajado, que este trabajando actualmente,
-              o que tenga una propuesta de proyecto en el área de robótica, está
+            <p>La sección <a href="https://github.com/ClubdeRobotica/wiki/wiki/Proyectos"
+                target="_blank"><b>Proyectos</b></a> del CdR está formada por <a
+                href="https://github.com/ClubdeRobotica/wiki/wiki/ProyectosInstitucionales"
+                target="_blank"><b>Proyectos Institucionales</b></a>, los cuales
+              son promovidos por el club y de los cuales cualquiera puede
+              acercarse a participar y los <a href="https://github.com/ClubdeRobotica/wiki/wiki/ProyectosIndependientes"
+                target="_blank"><b>Proyectos Independientes</b></a>, que fueron
+              acercados por miembros del club y se les brinda apoyo.
+              <!--
+              sub-secciones:</p>            <ul>              <li type="circle">Proyectos Institucionales</li>              <li type="circle">Proyectos Independientes</li>
+            </ul>--></p>
+            <p>Todo aquel que haya trabajado, que este trabajando actualmente, o
+              que tenga una propuesta de proyecto en el área de robótica, está
               invitado a acercarse al CdR para compartirla y analizar su
               viabilidad.</p>
-            <p> Los proyectos en los que mas estamos trabajando en la actualidad
+            <p>Los proyectos en los que mas estamos trabajando en la actualidad
               son los siguientes: </p>
             <div class="features">
               <article> <a href="https://github.com/ClubdeRobotica/wiki/wiki/Deorbit"
@@ -128,8 +136,9 @@
                   <p> El objetivo es consolidar una plataforma para desarrollo
                     de robots seguidores de línea. En 2017 participamos con un
                     desarrollo en FPGA de las&nbsp;<a href="http://www.frc.utn.edu.ar/jar2017/?pIs=2925"
-                      target="_blank">IX JAR</a> donde obutivimos el tercer
-                    premio en la exposición de robots. <a href="https://github.com/ClubdeRobotica/wiki/wiki/Robot-Seguidor-de-L%C3%ADnea"
+                      target="_blank">IX Jornadas Argentinas de Robótica (JAR
+                      2017)</a> donde obutivimos el tercer premio en la
+                    exposición de robots. <a href="https://github.com/ClubdeRobotica/wiki/wiki/Robot-Seguidor-de-L%C3%ADnea"
                       target="_blank">Mas Info&gt;&gt;</a></p>
                 </div>
               </article>
@@ -137,7 +146,7 @@
                   class="image"><img src="images/pic04.jpg" alt=""></a>
                 <div class="inner">
                   <h4>VRTD</h4>
-                  <p>Blablalbla</p>
+                  <p>En construcción...</p>
                 </div>
               </article>
               <article> <a href="https://github.com/ClubdeRobotica/wiki/wiki/Robot-Seguidor-de-Luz"
@@ -146,7 +155,7 @@
                   <h4>Robot Seguidor de Luz</h4>
                   <p>El objetivo de este proyecto es proporcionar un primer
                     acercamiento a la robótica y a la electrónica, abordando el
-                    control de motores y por medio de sensores y una interface
+                    control de motores y por medio de sensores y una interfaz
                     analógica. <a href="https://github.com/ClubdeRobotica/wiki/wiki/RSLuz"
                       target="_blank">Mas Info&gt;&gt;</a></p>
                 </div>
@@ -154,7 +163,9 @@
               <article> <a href="#" class="image"><img src="images/pic05.jpg" alt=""></a>
                 <div class="inner">
                   <h4>Cansat</h4>
-                  <p>Blablalbla</p>
+                  <p>Un <b>CanSat</b> es un pequeño satélite del tamaño de una
+                    lata de refresco cuya principal función es la enseñanza de
+                    tecnologías aeroespaciales.</p>
                 </div>
               </article>
             </div>
@@ -165,17 +176,12 @@
           <div class="container">
             <h3>Cómo Participar</h3>
             <p>Si estas interesado en formar parte del club y participar en
-              alguno de nuestros proyectos, completá nuesto <b><a href="https://docs.google.com/forms/d/15x8jML5wOEyb5q6SSyZIvmuE8bv2EupJgFnlK4BooV0/edit"
+              alguno de nuestros proyectos, completá nuestro <b><a href="https://docs.google.com/forms/d/15x8jML5wOEyb5q6SSyZIvmuE8bv2EupJgFnlK4BooV0"
                   target="_blank">Formulario de Contacto </a></b>con algunos
-              datos tuyos así podemos contactarte. O simplemente ponete en
-              contacto con nostros por cualquiera de nustros canales.</p>
+              datos tuyos así podemos contactarte. O simplemente comunicate con
+              nosotros por cualquiera de nuestros canales.</p>
             <!--
-            <form method="post" action="#">              <div class="row uniform">                <div class="6u 12u(xsmall)"><input name="name" id="name" placeholder="Nombre"                    type="text"></div>
-                <div class="6u 12u(xsmall)"><input name="email" id="email" placeholder="Email"                    type="email"></div>              </div>              <div class="row uniform">
-                <div class="12u"><input name="subject" id="subject" placeholder="Asunto"                    type="text"></div>              </div>              <div class="row uniform">
-                <div class="12u"><textarea name="message" id="message" placeholder="Mensaje"rows="6"></textarea></div>              </div>              <div class="row uniform">
-                <div class="12u">                  <ul class="actions">                    <li><input class="special" value="Send Message" type="submit"></li>                    <li><input value="Reset Form" type="reset"></li>
-                  </ul>                </div>              </div>            </form> -->
+            <form method="post" action="#">              <div class="row uniform">                <div class="6u 12u(xsmall)"><input name="name" id="name" placeholder="Nombre"                    type="text"></div>                <div class="6u 12u(xsmall)"><input name="email" id="email" placeholder="Email"                    type="email"></div>              </div>              <div class="row uniform">                <div class="12u"><input name="subject" id="subject" placeholder="Asunto"                    type="text"></div>              </div>              <div class="row uniform">                <div class="12u"><textarea name="message" id="message" placeholder="Mensaje"rows="6"></textarea></div>              </div>              <div class="row uniform">                <div class="12u">                  <ul class="actions">                    <li><input class="special" value="Send Message" type="submit"></li>                    <li><input value="Reset Form" type="reset"></li>                  </ul>                </div>              </div>            </form> -->
           </div>
         </section>
         <!-- Five -->
@@ -196,10 +202,6 @@
           <li><a href="https://github.com/ClubdeRobotica/wiki/wiki" class="icon fa-wikipedia-w"><span
                 class="label">Wiki</span></a></li>
         </ul>
-        <!-- <ul class="icons">
-          <li style="text-align: center;"><br>          </li>	  <li class="icon fa-facebook"><a href="https://www.facebook.com/groups/247066238661652/"</a></li>          <li class="icon fa-instagram"><a href="https://www.instagram.com/cdr_frc_utn/"</a></li>          <li class="icon fa-github"><a href="https://github.com/ClubdeRobotica"</a></li>          <li class="icon fa-envelope"><a href="mailto:clubrobotica.utnfrc@gmail.com"</a></li>          <li class="icon fa-wikipedia-w"><a href="https://github.com/ClubdeRobotica/wiki/wiki"</a></li>           -->
-        <!-- 
-	<li style="text-align: center;"><a href="https://www.facebook.com/groups/247066238661652/"              class="icon fa-facebook"><span class="label">Facebook</span></a></li>          <li style="text-align: center;"><a href="https://www.instagram.com/cdr_frc_utn/"              class="icon fa-instagram"><span class="label">Instagram</span></a></li>          <li style="text-align: center;"><a href="https://github.com/ClubdeRobotica"              class="icon fa-github"><span class="label">Github</span></a></li>          <li style="text-align: center;"><a href="mailto:clubrobotica.utnfrc@gmail.com"              class="icon fa-envelope"><span class="label">Email</span></a></li>          <li><a href="https://github.com/ClubdeRobotica/wiki/wiki"               class="icon fa-wikipedia-w"><span class="label">Wiki</span></a></li>	-->
       </section>
     </div>
     <!-- Scripts -->
