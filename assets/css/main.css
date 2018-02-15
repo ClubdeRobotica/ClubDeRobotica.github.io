@@ -2936,13 +2936,13 @@
 			}
 
 		/* Header */
-
+/*TODO le cambie un poco el tamano*/
 			#header {
-				width: 17em;
-				-moz-transform: translateX(17em);
-				-webkit-transform: translateX(17em);
-				-ms-transform: translateX(17em);
-				transform: translateX(17em);
+				width: 15em;
+				-moz-transform: translateX(15em);
+				-webkit-transform: translateX(15em);
+				-ms-transform: translateX(15em);
+				transform: translateX(15em);
 				right: 0;
 			}
 
