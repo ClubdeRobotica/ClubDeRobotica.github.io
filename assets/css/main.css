@@ -91,7 +91,8 @@ img {
 		width: 45em;
 	}
 
-	@media screen and (max-width: 1680px) {
+/*El maximo será ahora una pantalla 1080p*/
+	@media screen and (max-width: 1920px) {
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -479,7 +480,8 @@ img {
 		margin-left: 8.33333%;
 	}
 
-	@media screen and (max-width: 1680px) {
+/*El maximo es ahora 1920x1080p*/
+	@media screen and (max-width: 1920px) {
 
 		.row > * {
 			padding: 0 0 0 2em;
@@ -2630,7 +2632,8 @@ img {
 
 /* XLarge */
 
-	@media screen and (max-width: 1680px) {
+/*El maximo es ahora 1920x1080p*/
+	@media screen and (max-width: 1920px) {
 
 		/* Basic */
 
