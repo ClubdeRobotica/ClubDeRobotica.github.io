@@ -2607,7 +2607,7 @@ img {
 /* One */
 /*  TODO: Hay que modificar esta parte para adaptar bien el header a cualquier pantalla   */
 	#one:before {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/banner.png");
 		background-position: top left;
 		background-repeat: no-repeat;
 		background-size: cover;
