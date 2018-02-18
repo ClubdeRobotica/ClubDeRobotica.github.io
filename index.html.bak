@@ -53,32 +53,30 @@
               <h2>Club de Robótica</h2>
               <p><a href="http://www.frc.utn.edu.ar/">UTN-FRC</a></p>
             </header>
-            <p>El Club de Robótica es un emprendimiento extracurricular llevado
-              a cabo por estudiantes de la UTN-FRC, orientado al diseño y
-              construcción de plataformas robóticas móviles. Pueden acceder
-              alumnos de cualquiera de las ingenierías, en cualquier etapa de su
-              carrera. Desde ya todo profesional que desee acercarse para
-              compartir su experiencia y conocimientos está invitado. </p>
-            <p>En relación directa con la carrera de Ingeniería Electrónica, el
-              CdR busca introducir a los alumnos de los primeros años a la
-              ingeniería de aplicación (y así mejorar el nivel de los
-              estudiantes que entran a tercer año y comienzan sus actividades de
-              laboratorio) y brindar apoyo a estudiantes de los cursos
-              superiores que deseen realizar proyectos integradores en el área
-              de la robótica. El CdR también busca integrar a estudiantes de
-              otras especialidades que deseen aprender (o aplicar sus
-              conocimientos) sobre electrónica, software y mecánica en el área
-              de la robótica.</p>
+            <p style="text-align: justify;">El Club de Robótica es un
+              emprendimiento extracurricular llevado a cabo por estudiantes de
+              la UTN-FRC, orientado al diseño y construcción de plataformas
+              robóticas móviles. Pueden acceder alumnos de cualquier carrera así
+              como profesionales. </p>
+            <p style="text-align: justify;">En relación directa con la carrera
+              de Ingeniería Electrónica, el CdR busca introducir a los alumnos
+              de los primeros años a la ingeniería de aplicación&nbsp; y brindar
+              apoyo a estudiantes de los cursos superiores que deseen realizar
+              proyectos en el área de la robótica. El CdR también busca integrar
+              a estudiantes de otras especialidades que deseen aprender (o
+              aplicar sus conocimientos) sobre electrónica, software y mecánica
+              en el área de la robótica.</p>
           </div>
         </section>
         <!-- Two -->
         <section id="two">
           <div class="container">
             <h3>Reuniones 2018</h3>
-            <p>Si bien gran parte del trabajo en los últimos años se hizo de
-              manera remota, utilizando herramientas de trabajo en la nube. A lo
-              largo del año lectivo, se mantiene un día fijo de trabajo en la
-              facultad donde se pueda hablar sobre los proyectos.</p>
+            <p style="text-align: justify;">Si bien gran parte del trabajo en
+              los últimos años se hizo de manera remota, utilizando herramientas
+              de trabajo en la nube. A lo largo del año lectivo, se mantiene un
+              día fijo de trabajo en la facultad donde se pueda hablar sobre los
+              proyectos.</p>
             <div class="features">
               <article>
                 <blockquote><strong>Durante este año las reuniones serán todos
@@ -88,8 +86,8 @@
                 La Universidad en Google Maps: <br>
                 <iframe src="https://www.google.com/maps/embed?pb=%211m10%211m8%211m3%211d850.9933969957888%212d-64.19293905233356%213d-31.44239406049496%213m2%211i1024%212i768%214f13.1%215e0%213m2%211ses-419%212sar%214v1518667141719"
                   style="border:5" allowfullscreen="" width="300" height="300" frameborder="0"></iframe>
-                <p>Maestro M. Lopez esq. Cruz Roja Argentina Ciudad
-                  Universitaria - Córdoba CapitalC</p>
+                <p><i>Maestro M. Lopez esq. Cruz Roja Argentina Ciudad
+                    Universitaria - Córdoba Capital</i></p>
               </article>
             </div>
             <!--
@@ -100,7 +98,7 @@
         <section id="three">
           <div class="container">
             <h3>Nuestros Proyectos</h3>
-            <p>La sección <a href="https://github.com/ClubdeRobotica/wiki/wiki/Proyectos"
+            <p style="text-align: justify;">La sección <a href="https://github.com/ClubdeRobotica/wiki/wiki/Proyectos"
                 target="_blank"><b>Proyectos</b></a> del CdR está formada por <a
                 href="https://github.com/ClubdeRobotica/wiki/wiki/ProyectosInstitucionales"
                 target="_blank"><b>Proyectos Institucionales</b></a>, los cuales
@@ -120,7 +118,7 @@
                 <div class="inner">
                   <h4>Sail deployment deorbit system by solenoids for
                     microsatellites</h4>
-                  <p>Proyecto finalista en el <a href="http://unisec-global.org/dmc/index.html"><b>2nd
+                  <p style="text-align: justify;">Proyecto finalista en el <a href="http://unisec-global.org/dmc/index.html"><b>2nd
                         Debris Mitigation Contest</b></a>. Con el objetivo de
                     mitigar los desechos espaciales estamos desarrollando un
                     dispositivo de de-orbitación para microsatélites. <a href="https://github.com/ClubdeRobotica/wiki/wiki/Deorbit"
@@ -130,19 +128,19 @@
               <article> <a href="#" class="image"><img src="images/pic01.jpg" alt=""></a>
                 <div class="inner">
                   <h4>3D printed Cubsat</h4>
-                  <p> El objetivo es fomentar el desarrollo regional de
-                    aplicaciones espaciales para fines académicos y económicos,
-                    basados en el standard CubeSat, haciendo uso de tecnología
-                    de impresión 3D y COTS. </p>
+                  <p style="text-align: justify;"> El objetivo es fomentar el
+                    desarrollo regional de aplicaciones espaciales para fines
+                    académicos y económicos, basados en el standard CubeSat,
+                    haciendo uso de tecnología de impresión 3D y COTS. </p>
                 </div>
               </article>
               <article> <a href="https://github.com/ClubdeRobotica/wiki/wiki/Robot-Seguidor-de-L%C3%ADnea"
                   class="image"><img src="images/pic03.jpg" alt=""></a>
                 <div class="inner">
                   <h4>RSL</h4>
-                  <p> El objetivo es consolidar una plataforma para desarrollo
-                    de robots seguidores de línea. En 2017 participamos con un
-                    desarrollo en FPGA de las&nbsp;<a href="http://www.frc.utn.edu.ar/jar2017/?pIs=2925"
+                  <p style="text-align: justify;"> El objetivo es consolidar una
+                    plataforma para desarrollo de robots seguidores de línea. En
+                    2017 participamos con un desarrollo en FPGA de las&nbsp;<a href="http://www.frc.utn.edu.ar/jar2017/?pIs=2925"
                       target="_blank"><b>IX Jornadas Argentinas de Robótica (JAR
                         2017)</b></a> donde obutivimos el tercer premio en la
                     exposición de robots. <a href="https://github.com/ClubdeRobotica/wiki/wiki/Robot-Seguidor-de-L%C3%ADnea"
@@ -153,12 +151,12 @@
                   class="image"><img src="images/pic04.jpg" alt=""></a>
                 <div class="inner">
                   <h4>VRTD</h4>
-                  <p>Se trata de una plataforma movil con tracción diferencial,
-                    que sirve como base para proyectos de robótica mas
-                    avanzados, en su versión actual está configurado como un
-                    vehículo semi-autonomo con sensores de ultrasonido, y
-                    magnetómetros que sirven para guiar el vehículo y recoger
-                    datos. <a href="https://github.com/ClubdeRobotica/wiki/wiki/VRTD_2013"
+                  <p style="text-align: justify;">Se trata de una plataforma
+                    movil con tracción diferencial, que sirve como base para
+                    proyectos de robótica mas avanzados, en su versión actual
+                    está configurado como un vehículo semi-autonomo con sensores
+                    de ultrasonido, y magnetómetros que sirven para guiar el
+                    vehículo y recoger datos. <a href="https://github.com/ClubdeRobotica/wiki/wiki/VRTD_2013"
                       target="_blank"><b>Mas Info&gt;&gt;</b></a></p>
                 </div>
               </article>
@@ -166,19 +164,20 @@
                   class="image"><img src="images/pic05.jpg" alt=""></a>
                 <div class="inner">
                   <h4>Robot Seguidor de Luz</h4>
-                  <p>El objetivo de este proyecto es proporcionar un primer
-                    acercamiento a la robótica y a la electrónica, abordando el
-                    control de motores y por medio de sensores y una interfaz
-                    analógica. <a href="https://github.com/ClubdeRobotica/wiki/wiki/RSLuz"
+                  <p style="text-align: justify;">El objetivo de este proyecto
+                    es proporcionar un primer acercamiento a la robótica y a la
+                    electrónica, abordando el control de motores y por medio de
+                    sensores y una interfaz analógica. <a href="https://github.com/ClubdeRobotica/wiki/wiki/RSLuz"
                       target="_blank"><b>Mas Info&gt;&gt;</b></a></p>
                 </div>
               </article>
               <article> <a href="#" class="image"><img src="images/pic05.jpg" alt=""></a>
                 <div class="inner">
                   <h4>Cansat</h4>
-                  <p>Un <b>CanSat</b> es un pequeño satélite del tamaño de una
-                    lata de refresco cuya principal función es la enseñanza de
-                    tecnologías aeroespaciales.</p>
+                  <p style="text-align: justify;">Un <b>CanSat</b> es un
+                    pequeño satélite del tamaño de una lata de refresco cuya
+                    principal función es la enseñanza de tecnologías
+                    aeroespaciales.</p>
                 </div>
               </article>
             </div>
@@ -188,13 +187,14 @@
         <section id="four">
           <div class="container">
             <h3>Cómo Participar</h3>
-            <p>Si estas interesado en formar parte del club y participar en
-              alguno de nuestros proyectos, completá nuestro <b><a href="https://docs.google.com/forms/d/15x8jML5wOEyb5q6SSyZIvmuE8bv2EupJgFnlK4BooV0"
+            <p style="text-align: justify;">Si estas interesado en formar parte
+              del club y participar en alguno de nuestros proyectos, completá
+              nuestro <b><a href="https://docs.google.com/forms/d/15x8jML5wOEyb5q6SSyZIvmuE8bv2EupJgFnlK4BooV0"
                   target="_blank">Formulario de Contacto </a></b>con algunos
               datos tuyos así podemos contactarte. O simplemente comunicate con
               nosotros por cualquiera de nuestros canales.</p>
-            <!--
-            <form method="post" action="#">              <div class="row uniform">                <div class="6u 12u(xsmall)"><input name="name" id="name" placeholder="Nombre"                    type="text"></div>                <div class="6u 12u(xsmall)"><input name="email" id="email" placeholder="Email"                    type="email"></div>              </div>              <div class="row uniform">                <div class="12u"><input name="subject" id="subject" placeholder="Asunto"                    type="text"></div>              </div>              <div class="row uniform">                <div class="12u"><textarea name="message" id="message" placeholder="Mensaje"rows="6"></textarea></div>              </div>              <div class="row uniform">                <div class="12u">                  <ul class="actions">                    <li><input class="special" value="Send Message" type="submit"></li>                    <li><input value="Reset Form" type="reset"></li>                  </ul>                </div>              </div>            </form> -->
+            <blockquote style="background-color: white;"> <em><strong><b><a href="https://docs.google.com/forms/d/15x8jML5wOEyb5q6SSyZIvmuE8bv2EupJgFnlK4BooV0"
+                      target="_blank">Ir al Formulario de Contacto&nbsp;</a></b></strong></em></blockquote>
           </div>
         </section>
         <!-- Five -->
