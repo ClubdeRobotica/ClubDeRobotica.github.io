@@ -3137,3 +3137,12 @@ img {
 			}
 
 	}
+
+@media screen and (max-width: 320px) {
+	
+			 /* One */
+
+			#one:before {
+				height: 6em;
+			}
+}
