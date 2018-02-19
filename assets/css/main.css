@@ -2672,7 +2672,7 @@ img {
 			}
 		
 		/* One */
-/*  Copiado lo del banner acá para que sea más grande en    */
+/*  Copiado lo del banner acá para que sea más grande en 1920px   */
 	#one:before {
 		background-image: url("../../images/banner.png");
 		background-position: top left;
@@ -2801,7 +2801,7 @@ img {
 		/* One */
 
 			#one:before {
-				height: 10em;
+				height: 13em;
 			}
 		/* Footer (lo centra también) */
 			#footer {
@@ -3004,7 +3004,7 @@ img {
 		/* One */
 
 			#one:before {
-				height: 7em;
+				height: 9.5em;
 			}
 
 		/* Footer */
@@ -3111,6 +3111,12 @@ img {
 			input[type="button"],
 			.button {
 				padding: 0;
+			}
+	   
+		 /* One */
+
+			#one:before {
+				height: 7em;
 			}
 
 	}
