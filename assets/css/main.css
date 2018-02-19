@@ -2670,6 +2670,21 @@ img {
 			#main > section > .container {
 				padding: 4em 0 2em 0;
 			}
+		
+		/* One */
+/*  Copiado lo del banner acá para que sea más grande en    */
+	#one:before {
+		background-image: url("../../images/banner.png");
+		background-position: top left;
+		background-repeat: no-repeat;
+		background-size: cover;
+		content: '';
+		display: block;
+		height: 19em;
+		width: 100%;
+        
+	}
+		
 		/* Footer centrado */
 			#footer {
 				text-align: center;
