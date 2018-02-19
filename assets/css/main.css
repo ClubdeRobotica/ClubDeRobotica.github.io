@@ -2693,6 +2693,17 @@ img {
 
 	}
 
+
+@media screen and (max-width: 1366px) {
+	
+			/* One */
+
+			#one:before {
+				height: 12em;
+			}
+	
+}
+
 /* Large */
 
 	@media screen and (max-width: 1280px) {
@@ -2720,6 +2731,12 @@ img {
 				padding-left: 0;
 			}
 
+			/* One */
+
+			#one:before {
+				height: 14em;
+			}
+		
 	}
 
 /* Medium */
