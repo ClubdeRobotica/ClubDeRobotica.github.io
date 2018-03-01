@@ -1664,7 +1664,7 @@ img {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #5151ea !important; /* estaba #0B0B61 */
+			color: #5151ea !important; /* estaba #000000 */
 		}
 
 	strong, b {
@@ -1820,7 +1820,7 @@ img {
 	}
 
 	header.major h2 {
-		color: #0B0B61; /*#0B0B61*/
+		color: #000000; /*#000000*/
 		font-size: 3.5em;
 	}
 
@@ -1883,7 +1883,7 @@ img {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #0B0B61;
+			border-color: #000000;
 		}
 
 	.select-wrapper {
@@ -1993,7 +1993,7 @@ img {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #0B0B61;
+			border-color: #000000;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2153,7 +2153,7 @@ img {
 		}
 
 			ul.alt li {
-				border-top: solid 2px #f4f4f4;
+				border-top: solid 2px #ffffff;
 				padding: 0.5em 0;
 			}
 
@@ -2187,7 +2187,7 @@ img {
 				}
 
 				ul.feature-icons li:before {
-					background: #0B0B61;
+					background: #000000;
 					border-radius: 100%;
 					color: #ffffff;
 					display: block;
@@ -2475,7 +2475,7 @@ img {
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #0B0B61;
+			background-color: #000000;
 			color: #ffffff !important;
 		}
 
@@ -2557,7 +2557,7 @@ img {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #0B0B61;
+		background: #000000;
 		color: #CED8F6;
 		height: 100%;
 		overflow-y: auto;
@@ -2665,7 +2665,7 @@ img {
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #0B0B61 !important;
+							color: #000000 !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -2969,7 +2969,7 @@ img {
 					}
 
 					#titleBar .toggle:before {
-						background: #0B0B61;
+						background: #000000;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
