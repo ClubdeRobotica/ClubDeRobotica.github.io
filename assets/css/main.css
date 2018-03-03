@@ -2644,9 +2644,9 @@ img {
 				margin: 0;
 				padding: 0;
 			}
-
+/*TODO: El color del separador de los botones es border-top*/
 				#header > nav ul li {
-					border-top: solid 2px #0431B4;
+					border-top: solid 2px #919ca3;
 					display: block;
 					padding: 0;
 				}
