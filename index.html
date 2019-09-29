@@ -13,8 +13,8 @@
     <!-- Header -->
     <section id="header">
         <ul class="icons">
-          <li><a href="index.html"><img src="images/esp.png" alt=""></a></li>
-          <li><a href="index_eng.html"><img src="images/eng.png" alt=""></a></li>
+          <li><a onclick="OnClickFlag('Spanish')" href="#"><img src="images/esp.png" alt=""></a></li>
+          <li><a onclick="OnClickFlag('Spanish')" href="#"><<img src="images/eng.png" alt=""></a></li>
         </ul>
       <!--<header> <span class="image avatar"><img src="images/botito-pop.png"></span>-->
        <!-- <h1 id="logo"><a href="#one">Club de Robótica</a></h1>
@@ -57,6 +57,7 @@
         <!-- One -->
         <section id="one">
           <div class="container">
+            <div id="spNosotros" style="display:true;">
             <header class="major">
               <h2>Nosotros</h2>
             </header>
@@ -78,6 +79,26 @@
             <p style="text-align: justify;">Desde mediados de 2017 el CdR
               también está participando en proyectos del área aeroespacial con
               proyectos para micro y nanosatélites.</p>
+            </div>
+            <div id="enNosotros" style="display:true;">
+            <header class="major">
+              <h2>About us</h2>
+            </header>            
+            <p style="text-align: justify;">The Robotics Club is an extracurricular group 
+            carried out by students of the <a href="http://www.frc.utn.edu.ar/" 
+            target="_blank">National Technological University - Córdoba Regional Faculty</a>, focused on the design 
+              and construction of robotic platforms. Students of any career, as well as professionals 
+              can be part of this group.  </p>
+            
+            <p style="text-align: justify;"> In a close relationship with Electronic Engineering, the Robotics Club (CdR) seek to 
+              introduce the students in the first years to the applied engineering and bring support to the advanced students
+              that want to do projects in the robotic field.
+              The CdR also look for integrate students from another fields that want to learn (or apply their knowledge) about 
+              electronics, software and mechanics applied to the robotic field.
+              </p>
+            <p style="text-align: justify;"> Since middle of 2017 the CdR also is participating in the aerospace field with
+              projects for micro and nanosatellites.</p>
+            </div>
           </div>
         </section>
         <!-- Two -->
@@ -312,5 +333,6 @@
       <script src="assets/js/util.js"></script>
       <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
       <script src="assets/js/main.js"></script> </div>
+      <<script type="text/javascript" src="scripts/script.js"></script> </div>
   </body>
 </html>
