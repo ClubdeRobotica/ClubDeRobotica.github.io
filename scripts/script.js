@@ -15,6 +15,7 @@ function OnClickFlag(aFlag){
         document.getElementById("enReuniones").style.display = "none";
         document.getElementById("enRobots").style.display = "none";
         document.getElementById("enAero").style.display = "none";
+        document.getElementById("enNovedades").style.display = "none";
         
         document.getElementById("spNavBar").style.display = "block";
         document.getElementById("spNosotros").style.display = "block";
@@ -31,6 +32,7 @@ function OnClickFlag(aFlag){
         document.getElementById("spReuniones").style.display = "block";
         document.getElementById("spRobots").style.display = "block";
         document.getElementById("spAero").style.display = "block";
+        document.getElementById("spNovedades").style.display = "block";
     }
     else{
         document.getElementById("enNavBar").style.display = "block";
@@ -48,6 +50,7 @@ function OnClickFlag(aFlag){
         document.getElementById("enReuniones").style.display = "block";
         document.getElementById("enRobots").style.display = "block";
         document.getElementById("enAero").style.display = "block";
+        document.getElementById("enNovedades").style.display = "block";
         
         
         document.getElementById("spNavBar").style.display = "none";
@@ -65,5 +68,19 @@ function OnClickFlag(aFlag){
         document.getElementById("spReuniones").style.display = "none";
         document.getElementById("spRobots").style.display = "none";
         document.getElementById("spAero").style.display = "none";
+        document.getElementById("spNovedades").style.display = "none";
     }
 }
+
+var content = "";
+function efectoCarrusell(){    
+$(".content-item-car").animate({left : -645},3000,function () {
+ $(".content-item-car").append("<div class='item-car' style='width:645px; position:relative; float:left; padding:20px'>"+$(".item-car:eq(0)").html()+"</div>");
+ $(".item-car:eq(0)").remove();
+ $(".content-item-car").css({left : 0});
+ setTimeout(efectoCarrusell, 1000); 
+ })     
+}
+$(document).ready(function (){
+efectoCarrusell();//inicio del efecto
+})
