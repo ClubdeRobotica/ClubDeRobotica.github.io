@@ -1,576 +1,571 @@
 <!DOCTYPE html>
 <html lang="es-ar">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>Club de Robotica - UTN-FRC</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="assets/css/main.css">
-    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-    <meta name="keywords" content="robotica, club, cdr, utn, frc, ARTI, cubesat, robotica educativa">
-  </head>
-  <body>
-    <!-- Header -->
-    <section id="header">
-        <ul class="icons">
-          <li><a onclick="OnClickFlag('Spanish')" href="#"><img src="images/esp.png" alt=""></a></li>
-          <li><a onclick="OnClickFlag('English')" href="#"><<img src="images/eng.png" alt=""></a></li>
-        </ul>
-      <!--<header> <span class="image avatar"><img src="images/botito-pop.png"></span>-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Club de Robotica - UTN-FRC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+  <link rel="stylesheet" href="assets/css/main.css">
+  <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+  <meta name="keywords" content="robotica, club, cdr, utn, frc, ARTI, cubesat, robotica educativa">
+</head>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <ul class="icons">
+      <li><a onclick="OnClickFlag('Spanish')" href="#"><img src="images/esp.png" alt=""></a></li>
+      <li><a onclick="OnClickFlag('English')" href="#"><img src="images/eng.png" alt=""></a></li>
+    </ul>
+    <!--<header> <span class="image avatar"><img src="images/botito-pop.png"></span>-->
        <!-- <h1 id="logo"><a href="#one">Club de Robótica</a></h1>
         <!--<p>Universidad Tecnólogica Nacional <br>
-          Facultad Regional Córdoba</p>--> </header>
-      <nav id="nav">
-        <ul id="spNavBar">
-          <li><a href="#one" class="active">Nosotros</a></li>
-          <li><a href="#two">Novedades</a></li>
-          <li><a href="#three">Nuestros Proyectos</a></li>
-          <li><a href="#four">Como participar</a></li>
-          <li><a href="#five">Reuniones 2019</a></li>
-          
+        Facultad Regional Córdoba</p>--> </header>
+        <nav id="nav">
+          <ul id="spNavBar">
+            <li><a href="#one" class="active">Nosotros</a></li>
+            <li><a href="#two">Novedades</a></li>
+            <li><a href="#three">Nuestros Proyectos</a></li>
+            <li><a href="#four">Como participar</a></li>
+            <li><a href="#five">Reuniones 2019</a></li>
+
           <!-- Hay cuatro secciones, que tienen una referencia (one, two, three, four) si queremos cambiar el lugar
                debemos mover la etiqueta tambien, y más abajo la etiqueta del contenedor, para que quede ordenado.
                Cuando hacemos click, en Nosotros que tiene la etiqueta "one" se dirige dentro de la pagina 
                al contenedor de la seccion "one". Y así para la two,three y four.
-                                                                                                 Luigi.-       -->
-        </ul>
-        <ul id="enNavBar"  style="display:none;">
-          <li><a href="#one" class="active">About Us</a></li>
-          <li><a href="#two">Novedades</a></li>
-          <li><a href="#three">Our Projects</a></li>
-          <li><a href="#four">How to particpate</a></li>
-          <li><a href="#five">Meetings 2019</a></li>          
-        </ul>
-        
-      </nav>
-      <footer>
-        <ul class="icons">
-          <li><a href="https://www.facebook.com/groups/247066238661652/" class="icon fa-facebook"><span
+               Luigi.-       -->
+             </ul>
+             <ul id="enNavBar"  style="display:none;">
+              <li><a href="#one" class="active">About Us</a></li>
+              <li><a href="#two">Novedades</a></li>
+              <li><a href="#three">Our Projects</a></li>
+              <li><a href="#four">How to particpate</a></li>
+              <li><a href="#five">Meetings 2019</a></li>          
+            </ul>
+
+          </nav>
+          <footer>
+            <ul class="icons">
+              <li><a href="https://www.facebook.com/groups/247066238661652/" class="icon fa-facebook"><span
                 class="label">Facebook</span></a></li>
-          <li><a href="https://www.instagram.com/cdr_frc_utn/" class="icon fa-instagram"><span
-                class="label">Instagram</span></a></li>
-          <li><a href="https://github.com/ClubdeRobotica" class="icon fa-github"><span
-                class="label">Github</span></a></li>
-          <li><a href="mailto:clubrobotica.utnfrc@gmail.com" class="icon fa-envelope"><span
-                class="label">Email</span></a></li>
-          <li><a href="https://github.com/ClubdeRobotica/wiki/wiki" class="icon fa-wikipedia-w"><span
-                class="label">Wiki</span></a></li>
-        </ul>
-      </footer>
-    </section>
-    <!-- Wrapper -->
-    <div id="wrapper">
-      <!-- Main -->
-      <div id="main">
-        <!-- One -->
-        <section id="one">
-          <div class="container">
-            <div id="spNosotros" style="display:true;">
-            <header class="major">
-              <h2>Nosotros</h2>
-            </header>
-            <p style="text-align: justify;">El Club de Robótica es un
-              emprendimiento extracurricular llevado a cabo por estudiantes de
-              la <a href="http://www.frc.utn.edu.ar/" 
-              target="_blank">Universidad Tecnológica Nacional - Facultad Regional Córdoba </a>
-              , orientado al diseño y construcción de plataformas robóticas móviles. 
-              Pueden acceder alumnos de cualquier carrera así
-              como profesionales. </p>
-            <p style="text-align: justify;">En relación directa con la carrera
-              de Ingeniería Electrónica, el CdR busca introducir a los alumnos
-              de los primeros años a la ingeniería de aplicación y brindar apoyo
-              a estudiantes de los cursos superiores que deseen realizar
-              proyectos en el área de la robótica. El CdR también busca integrar
-              a estudiantes de otras especialidades que deseen aprender (o
-              aplicar sus conocimientos) sobre electrónica, software y mecánica
-              en el área de la robótica.</p>
-            <p style="text-align: justify;">Desde mediados de 2017 el CdR
-              también está participando en proyectos del área aeroespacial con
-              proyectos para micro y nanosatélites.</p>
-            </div>
-            <div id="enNosotros" style="display:none;">
-            <header class="major">
-              <h2>About us</h2>
-            </header>            
-            <p style="text-align: justify;">The Robotics Club is an extracurricular group 
-            carried out by students of the <a href="http://www.frc.utn.edu.ar/" 
-            target="_blank">National Technological University - Córdoba Regional Faculty</a>, focused on the design 
-              and construction of robotic platforms. Students of any career, as well as professionals 
-              can be part of this group.  </p>
-            
-            <p style="text-align: justify;"> In a close relationship with Electronic Engineering, the Robotics Club (CdR) seek to 
-              introduce the students in the first years to the applied engineering and bring support to the advanced students
-              that want to do projects in the robotic field.
-              The CdR also look for integrate students from another fields that want to learn (or apply their knowledge) about 
-              electronics, software and mechanics applied to the robotic field.
-              </p>
-            <p style="text-align: justify;"> Since middle of 2017 the CdR also is participating in the aerospace field with
-              projects for micro and nanosatellites.</p>
-            </div>
-          </div>
-        </section>
-        <!-- Two -->
-        
-        
-        
-        <section id="two">
-        <div class="container">
-        
-        <div id="spNovedades" style="display:block;">
-            <h3>Novedades</h3>
-            <div style="width:645px; height:400px; overflow:hidden; position:relative;">
-            <div style="width:5000px; position:relative;" class="content-item-car">     
-            
-                <div class="item-car" style="width:645px; height:500px; position:relative; float:left; overflow:hidden; padding:20px">      
-                <img style="border:none; height:200px; margin:auto; display:block;" src="images/news01.jpg"/>   
-                <h4 style="text-align: justify; margin:auto; display:block;" >Popurri Fest</h4>
-                <p style="text-align: justify; margin:auto; display:block;">
-                El pasado Sabado 04 de Mayo el CdR participó de la #PopurriFest dando a conocer 
-                las actividades en robótica y tematica aeroespacial que realizamos al público en general
-                con buena aceptacion de parte de la gente.
-                </p>
-                <br><br><br><br><br><br><br>
-                </div>
-                
-                <div class="item-car" style="width:645px; height:100%; position:relative; float:left; overflow:hidden;padding:20px">       
-                <img style="border:none; height:200px; margin:auto; display:block;" src="images/news02.jpg"/>      
-                <h4 style="text-align: justify;  margin:auto; display:block;" >Jornadas de Electrónica UTN-FRC</h4>
-                <p style="text-align: justify; margin:auto; display:block;">          
-                El pasado Viernes 03 de Mayo se dió la Jornada de charlas y stand informativo del Club de Robotica en la UTN-FRC.
-                Agradecemos a todos los participantes, y bienvenidos al CdR.
-                </p>
-                <br><br><br><br><br><br><br>
-                </div>
-                
-                <div class="item-car" style="width:645px; height:100%; position:relative; float:left; overflow:hidden;padding:20px">         
-                <img style="border:none; height:200px; margin:auto; display:block;" src="images/news03.jpg"/>        
-                <h4 style="text-align: justify; margin:auto; display:block;" >FLISOL 2019</h4>
-                <p style="text-align: justify; margin:auto; display:block;">
-                El pasado 27 y 28 de Abril el CdR participó del FLISOL Córdoba 2019, colaborando con la organizacion y dando
-                varias charlas, contando la experiencia de usar herramientas libres en los proyectos. Gracias a FLISOL por
-                invitarnos otra vez, y a la gente por participar de nuestras charlas.
-                </p>
-                <br><br><br><br><br><br><br>
-                </div>        
-                
-            </div>
-            </div>
-        </div>
-        
-        <div id="enNovedades" style="display:none;">
-            <h3>News</h3>
-            <div style="width:645px; height:400px; overflow:hidden; position:relative;">
-            <div style="width:1935px; position:relative;" class="content-item-car">     
-            
-                <div class="item-car" style="width:645px; height:500px; position:relative; float:left; overflow:hidden; padding:20px">     
-                <img style="border:none; height:200px; margin:auto; display:block;" src="images/news01.jpg"/>   
-                <h4 style="text-align: justify; margin:auto; display:block;" >Popurri Fest</h4>
-                <p style="text-align: justify; margin:auto; display:block;">
-                El pasado Sabado 04 de Mayo el CdR participó de la #PopurriFest dando a conocer 
-                las actividades en robótica y tematica aeroespacial que realizamos al público en general
-                con buena aceptacion de parte de la gente.
-                <br><br><br><br><br><br><br>
-                </p>
-                </div>
-                
-                <div class="item-car" style="width:645px; height:100%; position:relative; float:left; overflow:hidden;padding:20px">       
-                <img style="border:none; height:200px; margin:auto; display:block;" src="images/news02.jpg"/>      
-                <h4 style="text-align: justify;  margin:auto; display:block;" >Jornada Puertas Abiertas UTN-FRC</h4>
-                <p style="text-align: justify; margin:auto; display:block;">          
-                El pasado Viernes 03 de Mayo se dió la Jornada de charlas y stand informativo del Club de Robotica en la UTN-FRC.
-                Agradecemos a todos los participantes, y bienvenidos al CdR.
-                <br><br><br><br><br><br><br>
-                </p>
-                </div>
-                
-                <div class="item-car" style="width:645px; height:100%; position:relative; float:left; overflow:hidden;padding:20px">         
-                <img style="border:none; height:200px; margin:auto; display:block;" src="images/news03.jpg"/>        
-                <h4 style="text-align: justify; margin:auto; display:block;" >FLISOL 2019</h4>
-                <p style="text-align: justify; margin:auto; display:block;">
-                El pasado 27 y 28 de Abril el CdR participó del FLISOL Córdoba 2019, colaborando con la organizacion y dando
-                varias charlas, contando la experiencia de usar herramientas libres en los proyectos. Gracias a FLISOL por
-                invitarnos otra vez, y a la gente por participar de nuestras charlas.
-                <br><br><br><br><br><br><br>
-                </p>
-                </div>                
-            </div>
-            </div>
-        </div>
-        
-        </div>
-        <!--
-          <div class="container">
-            <h3>Novedades</h3>
-	        <p style="text-align: justify;">
-			El pasado Sabado 04 de Mayo el CdR participó de la #PopurriFest dando a conocer 
-			las actividades en robótica y tematica aeroespacial que realizamos al público en general
-			con buena aceptacion de parte de la gente.
-		</p>
-		<p style="text-align: justify;">
-		      El pasado Viernes 03 de Mayo se dió la Jornada de charlas y stand informativo del Club de Robotica en la UTN-FRC.
-		      Agradecemos a todos los participantes, y bienvenidos al CdR.
-		</p>
-		<p style="text-align: justify;">
-		      El pasado 27 y 28 de Abril el CdR participó del FLISOL Córdoba 2019, colaborando con la organizacion y dando
-			varias charlas, contando la experiencia de usar herramientas libres en los proyectos. Gracias a FLISOL por
-			invitarnos otra vez, y a la gente por participar de nuestras charlas.
-		</p>
-      </div>
-      -->
-      </section>
-	<!-- Three -->
-        <section id="three">
-          <div class="container">
-          <div id="spProyectos" style="display:true;">
-            <h3>Nuestros Proyectos</h3>
-            <p style="text-align: justify;">La sección <a href="https://github.com/ClubdeRobotica/wiki/wiki/Proyectos"
-                target="_blank"><b>Proyectos</b></a> del CdR está formada por <a
+                <li><a href="https://www.instagram.com/cdr_frc_utn/" class="icon fa-instagram"><span
+                  class="label">Instagram</span></a></li>
+                  <li><a href="https://github.com/ClubdeRobotica" class="icon fa-github"><span
+                    class="label">Github</span></a></li>
+                    <li><a href="mailto:clubrobotica.utnfrc@gmail.com" class="icon fa-envelope"><span
+                      class="label">Email</span></a></li>
+                      <li><a href="https://github.com/ClubdeRobotica/wiki/wiki" class="icon fa-wikipedia-w"><span
+                        class="label">Wiki</span></a></li>
+                      </ul>
+                    </footer>
+                  </section>
+                  <!-- Wrapper -->
+                  <div id="wrapper">
+                    <!-- Main -->
+                    <div id="main">
+
+                      <!-- One -->
+                      <section id="one">
+                        <div class="container">
+                          <div id="spNosotros" style="display:true;">
+                            <header class="major">
+                              <h2>Nosotros</h2>
+                            </header>
+                            <p style="text-align: justify;">El Club de Robótica es un
+                              emprendimiento extracurricular llevado a cabo por estudiantes de
+                              la <a href="http://www.frc.utn.edu.ar/" 
+                              target="_blank">Universidad Tecnológica Nacional - Facultad Regional Córdoba </a>
+                              , orientado al diseño y construcción de plataformas robóticas móviles. 
+                              Pueden acceder alumnos de cualquier carrera así
+                            como profesionales. </p>
+                            <p style="text-align: justify;">En relación directa con la carrera
+                              de Ingeniería Electrónica, el CdR busca introducir a los alumnos
+                              de los primeros años a la ingeniería de aplicación y brindar apoyo
+                              a estudiantes de los cursos superiores que deseen realizar
+                              proyectos en el área de la robótica. El CdR también busca integrar
+                              a estudiantes de otras especialidades que deseen aprender (o
+                              aplicar sus conocimientos) sobre electrónica, software y mecánica
+                            en el área de la robótica.</p>
+                            <p style="text-align: justify;">Desde mediados de 2017 el CdR
+                              también está participando en proyectos del área aeroespacial con
+                            proyectos para micro y nanosatélites.</p>
+                          </div>
+                          <div id="enNosotros" style="display:none;">
+                            <header class="major">
+                              <h2>About us</h2>
+                            </header>            
+                            <p style="text-align: justify;">The Robotics Club is an extracurricular group 
+                              carried out by students of the <a href="http://www.frc.utn.edu.ar/" 
+                              target="_blank">National Technological University - Córdoba Regional Faculty</a>, focused on the design 
+                              and construction of robotic platforms. Students of any career, as well as professionals 
+                            can be part of this group.  </p>
+
+                            <p style="text-align: justify;"> In a close relationship with Electronic Engineering, the Robotics Club (CdR) seek to 
+                              introduce the students in the first years to the applied engineering and bring support to the advanced students
+                              that want to do projects in the robotic field.
+                              The CdR also look for integrate students from another fields that want to learn (or apply their knowledge) about 
+                              electronics, software and mechanics applied to the robotic field.
+                            </p>
+                            <p style="text-align: justify;"> Since middle of 2017 the CdR also is participating in the aerospace field with
+                            projects for micro and nanosatellites.</p>
+                          </div>
+                        </div>
+                      </section>
+
+
+
+                      <!-- Two -->
+                      <section id="two">
+                        <div class="container">
+
+                          <div id="spNovedades" style="display:block;">
+                            <h3>Novedades</h3>
+                            <div style="width:645px; height:400px; overflow:hidden; position:relative;">
+
+                              <div style="width:5000px; position:relative;" class="content-item-car">     
+
+                                <div class="item-car" style="width:645px; height:500px; position:relative; float:left; overflow:hidden; padding:20px">      
+                                  <img style="border:none; height:200px; margin:auto; display:block;" src="images/news01.jpg"/>   
+                                  <h4 style="text-align: justify; margin:auto; display:block;" >Popurri Fest</h4>
+                                  <p style="text-align: justify; margin:auto; display:block;">
+                                    El pasado Sabado 04 de Mayo el CdR participó de la #PopurriFest dando a conocer 
+                                    las actividades en robótica y tematica aeroespacial que realizamos al público en general
+                                    con buena aceptacion de parte de la gente.
+                                  </p>
+                                  <br><br><br><br><br><br><br>
+                                </div>
+
+                                <div class="item-car" style="width:645px; height:100%; position:relative; float:left; overflow:hidden;padding:20px">       
+                                  <img style="border:none; height:200px; margin:auto; display:block;" src="images/news02.jpg"/>      
+                                  <h4 style="text-align: justify;  margin:auto; display:block;" >Jornadas de Electrónica UTN-FRC</h4>
+                                  <p style="text-align: justify; margin:auto; display:block;">          
+                                    El pasado Viernes 03 de Mayo se dió la Jornada de charlas y stand informativo del Club de Robotica en la UTN-FRC.
+                                    Agradecemos a todos los participantes, y bienvenidos al CdR.
+                                  </p>
+                                  <br><br><br><br><br><br><br>
+                                </div>
+
+                                <div class="item-car" style="width:645px; height:100%; position:relative; float:left; overflow:hidden;padding:20px">         
+                                  <img style="border:none; height:200px; margin:auto; display:block;" src="images/news03.jpg"/>        
+                                  <h4 style="text-align: justify; margin:auto; display:block;" >FLISOL 2019</h4>
+                                  <p style="text-align: justify; margin:auto; display:block;">
+                                    El pasado 27 y 28 de Abril el CdR participó del FLISOL Córdoba 2019, colaborando con la organizacion y dando
+                                    varias charlas, contando la experiencia de usar herramientas libres en los proyectos. Gracias a FLISOL por
+                                    invitarnos otra vez, y a la gente por participar de nuestras charlas.
+                                  </p>
+                                  <br><br><br><br><br><br><br>
+                                </div>        
+                              </div>
+                            </div>
+                          </div>
+
+                          <div id="enNovedades" style="display:none;">
+                            <h3>News</h3>
+                            <div style="width:645px; height:400px; overflow:hidden; position:relative;">
+                              <div style="width:1935px; position:relative;" class="content-item-car">     
+
+                                <div class="item-car" style="width:645px; height:500px; position:relative; float:left; overflow:hidden; padding:20px">     
+                                  <img style="border:none; height:200px; margin:auto; display:block;" src="images/news01.jpg"/>   
+                                  <h4 style="text-align: justify; margin:auto; display:block;" >Popurri Fest</h4>
+                                  <p style="text-align: justify; margin:auto; display:block;">
+                                    El pasado Sabado 04 de Mayo el CdR participó de la #PopurriFest dando a conocer 
+                                    las actividades en robótica y tematica aeroespacial que realizamos al público en general
+                                    con buena aceptacion de parte de la gente.
+                                    <br><br><br><br><br><br><br>
+                                  </p>
+                                </div>
+
+                                <div class="item-car" style="width:645px; height:100%; position:relative; float:left; overflow:hidden;padding:20px">       
+                                  <img style="border:none; height:200px; margin:auto; display:block;" src="images/news02.jpg"/>      
+                                  <h4 style="text-align: justify;  margin:auto; display:block;" >Jornada Puertas Abiertas UTN-FRC</h4>
+                                  <p style="text-align: justify; margin:auto; display:block;">          
+                                    El pasado Viernes 03 de Mayo se dió la Jornada de charlas y stand informativo del Club de Robotica en la UTN-FRC.
+                                    Agradecemos a todos los participantes, y bienvenidos al CdR.
+                                    <br><br><br><br><br><br><br>
+                                  </p>
+                                </div>
+
+                                <div class="item-car" style="width:645px; height:100%; position:relative; float:left; overflow:hidden;padding:20px">         
+                                  <img style="border:none; height:200px; margin:auto; display:block;" src="images/news03.jpg"/>        
+                                  <h4 style="text-align: justify; margin:auto; display:block;" >FLISOL 2019</h4>
+                                  <p style="text-align: justify; margin:auto; display:block;">
+                                    El pasado 27 y 28 de Abril el CdR participó del FLISOL Córdoba 2019, colaborando con la organizacion y dando
+                                    varias charlas, contando la experiencia de usar herramientas libres en los proyectos. Gracias a FLISOL por
+                                    invitarnos otra vez, y a la gente por participar de nuestras charlas.
+                                    <br><br><br><br><br><br><br>
+                                  </p>
+                                </div>                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+
+                      <!-- Three -->
+                      <section id="three">
+                        <div class="container">
+                          <div id="spProyectos" style="display:true;">
+                            <h3>Nuestros Proyectos</h3>
+                            <p style="text-align: justify;">La sección <a href="https://github.com/ClubdeRobotica/wiki/wiki/Proyectos"
+                              target="_blank"><b>Proyectos</b></a> del CdR está formada por <a
+                              href="https://github.com/ClubdeRobotica/wiki/wiki/ProyectosInstitucionales"
+                              target="_blank"><b>Proyectos Institucionales</b></a>, los cuales
+                              son promovidos por el club y de los cuales cualquiera puede
+                              acercarse a participar y los <a href="https://github.com/ClubdeRobotica/wiki/wiki/ProyectosIndependientes"
+                              target="_blank"><b>Proyectos Independientes</b></a>, que fueron
+                              acercados por miembros del club y se les brinda apoyo.<br>
+                              Todo aquel que haya trabajado, que este trabajando actualmente, o
+                              que tenga una propuesta de proyecto en el área de robótica, está
+                              invitado a acercarse al CdR para compartirla y analizar su
+                            viabilidad. </p>
+                          </div>
+
+                          <div id="enProyectos" style="display:none;">
+                            <h3>Projects</h3>
+                            <p style="text-align: justify;">The CdR's <a href="https://github.com/ClubdeRobotica/wiki/wiki/Proyectos"
+                target="_blank"><b>Projects</b></a> section is composed of <a
                 href="https://github.com/ClubdeRobotica/wiki/wiki/ProyectosInstitucionales"
-                target="_blank"><b>Proyectos Institucionales</b></a>, los cuales
-              son promovidos por el club y de los cuales cualquiera puede
-              acercarse a participar y los <a href="https://github.com/ClubdeRobotica/wiki/wiki/ProyectosIndependientes"
-                target="_blank"><b>Proyectos Independientes</b></a>, que fueron
-              acercados por miembros del club y se les brinda apoyo.<br>
-              Todo aquel que haya trabajado, que este trabajando actualmente, o
-              que tenga una propuesta de proyecto en el área de robótica, está
-              invitado a acercarse al CdR para compartirla y analizar su
-              viabilidad. </p>
-            </div>
-          <div id="enProyectos" style="display:none;">
-            <h3>Nuestros Proyectos</h3>
-            <p style="text-align: justify;">English </p>
-            </div>
-            
-            <h3 id="spAero">Proyectos aeroespaciales</h3>
-            <h3 id="enAero" style="display:none;">Aeroespace</h3>
-            
-            <div class="features">            
-              <article> <a href="#" class="image"><img src="images/Cube.jpeg" alt=""></a>
-                <div class="inner">
-                   <div id="spCoresat" style="display:true;">      
-                        <h4>Cor-E Sat: CubeSat 3D printing & COTS </h4>
-                        <p style="text-align: justify;" > Nuestro objetivo principal es fomentar el desarrollo 
-                            de la educación sobre sistemas espaciales en nuestro país desde el ámbito universitario, 
-                            para obtener la oportunidad de participar en la nueva revolución espacial. 
-                            Denotando nuestro primer proyecto Cor-E Sat (Satélite Educativo Cordobes) el cual 
-                            promueve el nuevo paradigma satelital, red de pequeños satélites. El proyecto consiste en un
-                            CubeSat kit con fines educativos que replica las mismas funcionalidades que una constelación 
-                            de CubeSats, para asi poder aprender como funciona esta tecnologia.
-                            <a href="https://github.com/ClubdeRobotica/wiki/wiki/CubeSat-3D-Printing-&-COTS"
-                            target="_blank"><b>Mas Info&gt;&gt;</b></a>
-                        </p>  
-                    </div>
-                      
-                    <div id="enCoresat" style="display:none;">    
-                        <h4>Cor-E Sat: CubeSat 3D printing & COTS </h4>
-                        <p style="text-align: justify;" > English Version of Cor-E Sat
-                            <a href="https://github.com/ClubdeRobotica/wiki/wiki/CubeSat-3D-Printing-&-COTS"
-                            target="_blank"><b>More Info&gt;&gt;</b></a>
-                        </p>   
-                    </div>
-                    
-                  </div>
-              
-              <article> <a href="#" class="image"><img src="images/ARTI.jpeg" alt=""></a>
-                <div class="inner">
-                    <div id="spARTI" style="display:true;">    
-                    <h4>ARTI: Sistema para Alerta y Respuesta Temprana ante Incendios </h4>
-                    <p style="text-align: justify;"> La presente propuesta forma parte del Programa de Desarrollo Espacial (PDE) 
-                        “Edu CubeSat” del CdR, en su segunda fase. 
-                        Esta consiste en una <b>misión simulada</b> en un <b>ambiente digital</b>, abarcando el diseño, 
-                        desarrollo, ensayo, operación, finalización y posterior evaluación de la misión, 
-                        utilizando herramientas para análisis y diseño de misiones y sistemas espaciales, 
-                        modelos computacionales, software y hardware “in the loop”.
-    
-                        <a href="Docs/Resumen-Mision-ARTI.pdf"
-                        target="_blank"><b>Mas Info&gt;&gt;</b></a>
-                    </p>
-                    </div>
-                    
-                    <div id="enARTI" style="display:none;">    
-                        <h4>ARTI: Sistema para Alerta y Respuesta Temprana ante Incendios </h4>
-                        <p style="text-align: justify;" > English Version of ARTI                            
-                        <a href="Docs/Resumen-Mision-ARTI.pdf"
-                        target="_blank"><b>More Info&gt;&gt;</b></a>
-                        </p>   
-                    </div>
-                </div>
-                
-              </article>
-              <article> <a href="#" class="image"><img src="images/pic07.jpg" alt=""></a>
-                <div class="inner">
-                    <div id="spCoheteria" style="display:true;">    
-                        <h4>Vectores Experimentales Amateur</h4>
-                        <p style="text-align: justify;">Se trata de un proyecto de experimentación con modelos de cohetes, el primer objetivo
-                        será el de desarrollar un pequeño lanzador capaz de transportar un Cansat.  <a href="https://github.com/ClubdeRobotica/Coheteria-Experimental" target="_blank"><b>Mas Info&gt;&gt;</b></a>
-                        </p>                  
-                    </div>
-                    
-                    <div id="enCoheteria" style="display:none;">    
-                        <h4>Experimental Amateur Vectors</h4>
-                        <p style="text-align: justify;" > English Version of EAV                            
-                        <a href="Docs/Resumen-Mision-ARTI.pdf"
-                        target="_blank"><b>More Info&gt;&gt;</b></a>
-                        </p>   
-                    </div>
-                </div>
-                
-                
-              </article>
-              <article> <a href="https://github.com/ClubdeRobotica/wiki/wiki/Deorbit"
-                  class="image"><img src="images/pic02.jpg" alt=""></a>
-                <div class="inner">
-                <div id="spDebris" style="display:true;">    
-                  <h4>Sail deployment deorbit system by solenoids for
-                    microsatellites</h4>
-                  <p style="text-align: justify;">Proyecto finalista en el <a href="http://unisec-global.org/dmc/index.html"><b>2nd
-                        Debris Mitigation Contest</b></a>. Con el objetivo de
-                    mitigar los desechos espaciales estamos desarrollando un
-                    dispositivo de de-orbitación para microsatélites. <a href="https://github.com/ClubdeRobotica/wiki/wiki/Deorbit"
-                      target="_blank"><b>Mas Info&gt;&gt;</b></a>
-                  </p>                  
-                </div>
-                
-                <div id="enDebris" style="display:none;">    
-                    <h4>Sail deployment deorbit system by solenoids for microsatellites</h4>
-                    <p style="text-align: justify;" > English Version of Debris                            
-                    <a href="Docs/Resumen-Mision-ARTI.pdf"
-                    target="_blank"><b>More Info&gt;&gt;</b></a>
-                    </p>   
-                </div>
-                </div>
-                </div>
-              </article>
-            </div>
-</div>
+                target="_blank"><b>Institutional projects</b></a>, which are promoted by the CdR 
+              and anyone can participate, and the <a href="https://github.com/ClubdeRobotica/wiki/wiki/ProyectosIndependientes"
+                target="_blank"><b>Independent projects</b></a>, 
+              which are proposed by some members of the group and we as CdR bring them support.<br>
+              Everyone who were working, are working actually or has a proposal for a project in the robotics field, 
+              it is invited to join us to share the idea and analyze its viability.
+              </p>
+            <p>The projects we are working on currently: </p>
+                          </div>
 
-<div class="container">
-            <h3 id="spRobots">Proyectos de robótica tradicional </h3>
-            <h3 id="enRobots" style="display:true;">traditional robotic projects</h3>
-            <div class="features">
-              <article> <a href="https://github.com/ClubdeRobotica/wiki/wiki/RobotSUMO"
-                  class="image"><img src="images/IMG-20180809-WA0045.jpg" alt=""></a>
-                <div class="inner">
-                    <div id="spSumo" style="display:true;">    
-                        <h4>Robot SUMO</h4>
-                        <p style="text-align: justify;"> El objetivo es obtener una
-                            plataforma de robots luchadores de la categoría SUMO.
-                        </p>                  
-                    </div>
-                    
-                    <div id="enSumo" style="display:none;">    
-                        <h4>SUMO</h4>
-                        <p style="text-align: justify;" > English Version of SUMO     
-                        </p>   
-                    </div> 
-                </div>
-              </article>
-              
-              
-              <article> <a href="https://github.com/ClubdeRobotica/wiki/wiki/Robot-Seguidor-de-L%C3%ADnea"
-                  class="image"><img src="images/pic03.jpg" alt=""></a>
-                <div class="inner">                    
-                    <div id="spRSL" style="display:true;">    
-                    <h4>Robot Seguidor de Linea</h4>
-                    <p style="text-align: justify;"> El objetivo es consolidar una
-                        plataforma para desarrollo de robots seguidores de línea. En
-                        2017 participamos con un desarrollo en FPGA de las&nbsp;<a href="http://www.frc.utn.edu.ar/jar2017/?pIs=2925"
-                        target="_blank"><b>IX Jornadas Argentinas de Robótica (JAR
-                            2017)</b></a> donde obtuvimos el tercer premio en la
-                        exposición de robots. <a href="https://github.com/ClubdeRobotica/wiki/wiki/Robot-Seguidor-de-L%C3%ADnea"
-                        target="_blank"><b>Mas Info&gt;&gt;</b></a>
-                        </p>                  
-                    </div>
-                    
-                    <div id="enRSL" style="display:none;">    
-                        <h4>RSL</h4>
-                        <p style="text-align: justify;" > English Version of RSL    
-                        <a href="https://github.com/ClubdeRobotica/wiki/wiki/Robot-Seguidor-de-L%C3%ADnea" arget="_blank"><b>More Info&gt;&gt;</b></a> 
-                        </p>   
-                    </div> 
-                        
-                 </div>
-              </article>
-              
-              <article> <a href="https://github.com/ClubdeRobotica/wiki/wiki/Veh%C3%ADculo-Robotizado-con-Tracci%C3%B3n-Diferencial"
-                  class="image"><img src="images/pic04.jpg" alt=""></a>
-                <div class="inner">
-                    <div id="spVRTD" style="display:true;">    
-                    <h4>VRTD</h4>
-                    <p style="text-align: justify;">Se trata de una plataforma
-                        movil con tracción diferencial, que sirve como base para
-                        proyectos de robótica mas avanzados, en su versión actual
-                        está configurado como un vehículo semi-autonomo con sensores
-                        de ultrasonido, y magnetómetros que sirven para guiar el
-                        vehículo y recoger datos. 
-                        <a href="https://github.com/ClubdeRobotica/wiki/wiki/VRTD_2013" target="_blank"><b>Mas Info&gt;&gt;</b></a>
-                    </p>                  
-                    </div>
-                    
-                    <div id="enVRTD" style="display:none;">    
-                        <h4>VRTD</h4>
-                        <p style="text-align: justify;" > English Version of VRTD   
-                        <a href="https://github.com/ClubdeRobotica/wiki/wiki/VRTD_2013" target="_blank"><b>More Info&gt;&gt;</b></a>
-                        </p> 
-                    </div>
-                    
-                </div>
-                
-              </article>
-              <article> <a href="https://github.com/ClubdeRobotica/wiki/wiki/Robot-Seguidor-de-Luz"
-                  class="image"><img src="images/pic06.jpg" alt=""></a>
-                <div class="inner">
-                    <div id="spRSLuz" style="display:true;"> 
-                    <h4>Robot Seguidor de Luz</h4>
-                    <p style="text-align: justify;">El objetivo de este proyecto
-                        es proporcionar un primer acercamiento a la robótica y a la
-                        electrónica, abordando el control de motores y por medio de
-                        sensores y una interfaz analógica.
-                        <a href="https://github.com/ClubdeRobotica/wiki/wiki/RSLuz" target="_blank"><b>Mas Info&gt;&gt;</b></a>
-                    </p>                  
-                    </div>
-                    
-                    <div id="enRSLuz" style="display:none;">    
-                        <h4>VRTD</h4>
-                        <p style="text-align: justify;" > English Version of RSLuz   
-                        <a href="https://github.com/ClubdeRobotica/wiki/wiki/RSLuz" target="_blank"><b>More Info&gt;&gt;</b></a>
-                        </p> 
-                    </div>
-                    
-                </div>
-              </article>
-            </div>
-          </div>
-        </section>
-	      
-	<!-- Four -->
-        <section id="four">
-          <div class="container" id="spParticipa">
-            <h3>Cómo Participar</h3>
-            <p style="text-align: justify;">Si estas interesado en formar parte
-              del club y participar en alguno de nuestros proyectos, completá
-              nuestro <b><a href="https://docs.google.com/forms/d/15x8jML5wOEyb5q6SSyZIvmuE8bv2EupJgFnlK4BooV0"
-                  target="_blank">Formulario de Contacto </a></b>con algunos
-              datos tuyos así podemos contactarte. O simplemente comunicate con
-              nosotros por cualquiera de nuestros canales.</p>
-            <blockquote style="background-color: white;"> <em><strong><b><a href="https://docs.google.com/forms/d/15x8jML5wOEyb5q6SSyZIvmuE8bv2EupJgFnlK4BooV0"
-                      target="_blank">Ir al Formulario de Contacto&nbsp;</a></b></strong></em></blockquote>
-          </div>
-          <div class="container" id="enParticipa">
-            <h3>How to participate</h3>
-            <p style="text-align: justify;">Si estas interesado en formar parte
-              del club y participar en alguno de nuestros proyectos, completá
-              nuestro con algunos datos tuyos así podemos contactarte. O simplemente comunicate con
-              nosotros por cualquiera de nuestros canales.
-            </p>
-              
-            <blockquote style="background-color: white;"> <em><strong><b><a href="https://docs.google.com/forms/d/15x8jML5wOEyb5q6SSyZIvmuE8bv2EupJgFnlK4BooV0"
-                      target="_blank">Ir al Formulario de Contacto&nbsp;</a></b></strong></em></blockquote>
-          </div>
-        </section>
+                          <h3 id="spAero" style="display:true;">Proyectos aeroespaciales</h3>
+                          <h3 id="enAero" style="display:none;">Aeroespace projects</h3>
 
-        <!-- Five -->
+                          <div class="features">            
+                            <article> <a href="#" class="image"><img src="images/Cube.jpeg" alt=""></a>
+                              <div class="inner">
+                               <div id="spCoresat" style="display:true;">      
+                                <h4>Cor-E Sat: CubeSat 3D printing & COTS </h4>
+                                <p style="text-align: justify;" > Nuestro objetivo principal es fomentar el desarrollo 
+                                  de la educación sobre sistemas espaciales en nuestro país desde el ámbito universitario, 
+                                  para obtener la oportunidad de participar en la nueva revolución espacial. 
+                                  Denotando nuestro primer proyecto Cor-E Sat (Satélite Educativo Cordobes) el cual 
+                                  promueve el nuevo paradigma satelital, red de pequeños satélites. El proyecto consiste en un
+                                  CubeSat kit con fines educativos que replica las mismas funcionalidades que una constelación 
+                                  de CubeSats, para asi poder aprender como funciona esta tecnologia.
+                                  <a href="https://github.com/ClubdeRobotica/wiki/wiki/CubeSat-3D-Printing-&-COTS"
+                                  target="_blank"><b>Mas Info&gt;&gt;</b></a>
+                                </p>  
+                              </div>
 
-     <section id="five">
-        <div class="container">
-          <div id="spReuniones" style="display:true;">         
-            <h3>Reuniones 2019</h3>
-            <p style="text-align: justify;">Si bien gran parte del trabajo en
-            los últimos años se hizo de manera remota
-            <!--, utilizando herramientas de trabajo en la nube. --> ,a lo
-            largo del año lectivo se fija un dia de reuniones presenciales en
-            la facultad para trabajar físicamente en los proyectos.</p>
-            <div class="features">
-                <article>
-                <blockquote><strong>
-                Horario de reuniones según el proyecto: <br>
-                <table>
-                <tr><td>RSL, SUMO y RSLuz</td><td>Viernes 16 a 18hs</td></tr>
-                <tr><td>Cor-E Sat: Cubesat 3D Printing & COTS </td><td>Miercoles 16 a 19hs</td></tr>
-                <tr><td>Cohetería Experimental</td><td>Viernes 16:30 a 19:30hs</td>
-                </tr></table>
+                              <div id="enCoresat" style="display:none;">    
+                                <h4>Cor-E Sat: CubeSat 3D printing & COTS </h4>
+                                <p style="text-align: justify;" > English Version of Cor-E Sat
+                                  <a href="https://github.com/ClubdeRobotica/wiki/wiki/CubeSat-3D-Printing-&-COTS"
+                                  target="_blank"><b>More Info&gt;&gt;</b></a>
+                                </p>   
+                              </div>
+
+                            </div>
+
+                            <article> <a href="#" class="image"><img src="images/ARTI.jpeg" alt=""></a>
+                              <div class="inner">
+                                <div id="spARTI" style="display:true;">    
+                                  <h4>ARTI: Sistema para Alerta y Respuesta Temprana ante Incendios </h4>
+                                  <p style="text-align: justify;"> La presente propuesta forma parte del Programa de Desarrollo Espacial (PDE) 
+                                    “Edu CubeSat” del CdR, en su segunda fase. 
+                                    Esta consiste en una <b>misión simulada</b> en un <b>ambiente digital</b>, abarcando el diseño, 
+                                    desarrollo, ensayo, operación, finalización y posterior evaluación de la misión, 
+                                    utilizando herramientas para análisis y diseño de misiones y sistemas espaciales, 
+                                    modelos computacionales, software y hardware “in the loop”.
+
+                                    <a href="Docs/Resumen-Mision-ARTI.pdf"
+                                    target="_blank"><b>Mas Info&gt;&gt;</b></a>
+                                  </p>
+                                </div>
+
+                                <div id="enARTI" style="display:none;">    
+                                  <h4>ARTI: Sistema para Alerta y Respuesta Temprana ante Incendios </h4>
+                                  <p style="text-align: justify;" > English Version of ARTI                            
+                                    <a href="Docs/Resumen-Mision-ARTI.pdf"
+                                    target="_blank"><b>More Info&gt;&gt;</b></a>
+                                  </p>   
+                                </div>
+                              </div>
+
+                            </article>
+                            <article> <a href="#" class="image"><img src="images/pic07.jpg" alt=""></a>
+                              <div class="inner">
+                                <div id="spCoheteria" style="display:true;">    
+                                  <h4>Vectores Experimentales Amateur</h4>
+                                  <p style="text-align: justify;">Se trata de un proyecto de experimentación con modelos de cohetes, el primer objetivo
+                                    será el de desarrollar un pequeño lanzador capaz de transportar un Cansat.  <a href="https://github.com/ClubdeRobotica/Coheteria-Experimental" target="_blank"><b>Mas Info&gt;&gt;</b></a>
+                                  </p>                  
+                                </div>
+
+                                <div id="enCoheteria" style="display:none;">    
+                                  <h4>Experimental Amateur Vectors</h4>
+                                  <p style="text-align: justify;" > English Version of EAV                            
+                                    <a href="Docs/Resumen-Mision-ARTI.pdf"
+                                    target="_blank"><b>More Info&gt;&gt;</b></a>
+                                  </p>   
+                                </div>
+                              </div>
+
+
+                            </article>
+                            <article> <a href="https://github.com/ClubdeRobotica/wiki/wiki/Deorbit"
+                              class="image"><img src="images/pic02.jpg" alt=""></a>
+                              <div class="inner">
+                                <div id="spDebris" style="display:true;">    
+                                  <h4>Sail deployment deorbit system by solenoids for
+                                  microsatellites</h4>
+                                  <p style="text-align: justify;">Proyecto finalista en el <a href="http://unisec-global.org/dmc/index.html"><b>2nd
+                                  Debris Mitigation Contest</b></a>. Con el objetivo de
+                                  mitigar los desechos espaciales estamos desarrollando un
+                                  dispositivo de de-orbitación para microsatélites. <a href="https://github.com/ClubdeRobotica/wiki/wiki/Deorbit"
+                                  target="_blank"><b>Mas Info&gt;&gt;</b></a>
+                                </p>                  
+                              </div>
+
+                              <div id="enDebris" style="display:none;">    
+                                <h4>Sail deployment deorbit system by solenoids for microsatellites</h4>
+                                <p style="text-align: justify;" > This project was finalist in the <a href="http://unisec-global.org/dmc/index.html"><b>2nd
+                        Debris Mitigation Contest</b></a>. Focusing on mitigate the problem of space debris, we are developing 
+                    a deorbit device for microsatellites.  
+                    <a href="https://github.com/ClubdeRobotica/wiki/wiki/Deorbit"
+                      target="_blank"><b>More info</b></a>
+                                </p>   
+                              </div>
+                            </div>
+                          <!-- </div> -->
+                        </article>
+                      </div>
+                    </div>
+
+                    <div class="container">
+                      <h3 id="spRobots" style="display:true;">Proyectos de robótica</h3>
+                      <h3 id="enRobots" style="display:none;">Robotics-related projects</h3>
+                      <div class="features">
+                        <article> <a href="https://github.com/ClubdeRobotica/wiki/wiki/RobotSUMO"
+                          class="image"><img src="images/IMG-20180809-WA0045.jpg" alt=""></a>
+                          <div class="inner">
+                            <div id="spSumo" style="display:true;">    
+                              <h4>Robot SUMO</h4>
+                              <p style="text-align: justify;"> El objetivo es obtener una
+                                plataforma de robots luchadores de la categoría SUMO.
+                              </p>                  
+                            </div>
+
+                            <div id="enSumo" style="display:none;">    
+                              <h4>SUMO</h4>
+                              <p style="text-align: justify;" > English Version of SUMO     
+                              </p>   
+                            </div> 
+                          </div>
+                        </article>
+
+
+                        <article> <a href="https://github.com/ClubdeRobotica/wiki/wiki/Robot-Seguidor-de-L%C3%ADnea"
+                          class="image"><img src="images/pic03.jpg" alt=""></a>
+                          <div class="inner">                    
+                            <div id="spRSL" style="display:true;">    
+                              <h4>Robot Seguidor de Linea</h4>
+                              <p style="text-align: justify;"> El objetivo es consolidar una
+                                plataforma para desarrollo de robots seguidores de línea. En
+                                2017 participamos con un desarrollo en FPGA de las&nbsp;<a href="http://www.frc.utn.edu.ar/jar2017/?pIs=2925"
+                                target="_blank"><b>IX Jornadas Argentinas de Robótica (JAR
+                                2017)</b></a> donde obtuvimos el tercer premio en la
+                                exposición de robots. <a href="https://github.com/ClubdeRobotica/wiki/wiki/Robot-Seguidor-de-L%C3%ADnea"
+                                target="_blank"><b>Mas Info&gt;&gt;</b></a>
+                              </p>                  
+                            </div>
+
+                            <div id="enRSL" style="display:none;">    
+                              <h4>RSL</h4>
+                              <p style="text-align: justify;" > English Version of RSL    
+                                <a href="https://github.com/ClubdeRobotica/wiki/wiki/Robot-Seguidor-de-L%C3%ADnea" arget="_blank"><b>More Info&gt;&gt;</b></a> 
+                              </p>   
+                            </div> 
+
+                          </div>
+                        </article>
+
+                        <article> <a href="https://github.com/ClubdeRobotica/wiki/wiki/Veh%C3%ADculo-Robotizado-con-Tracci%C3%B3n-Diferencial"
+                          class="image"><img src="images/pic04.jpg" alt=""></a>
+                          <div class="inner">
+                            <div id="spVRTD" style="display:true;">    
+                              <h4>VRTD</h4>
+                              <p style="text-align: justify;">Se trata de una plataforma
+                                movil con tracción diferencial, que sirve como base para
+                                proyectos de robótica mas avanzados, en su versión actual
+                                está configurado como un vehículo semi-autonomo con sensores
+                                de ultrasonido, y magnetómetros que sirven para guiar el
+                                vehículo y recoger datos. 
+                                <a href="https://github.com/ClubdeRobotica/wiki/wiki/VRTD_2013" target="_blank"><b>Mas Info&gt;&gt;</b></a>
+                              </p>                  
+                            </div>
+
+                            <div id="enVRTD" style="display:none;">    
+                              <h4>VRTD</h4>
+                              <p style="text-align: justify;" > English Version of VRTD   
+                                <a href="https://github.com/ClubdeRobotica/wiki/wiki/VRTD_2013" target="_blank"><b>More Info&gt;&gt;</b></a>
+                              </p> 
+                            </div>
+
+                          </div>
+
+                        </article>
+                        <article> <a href="https://github.com/ClubdeRobotica/wiki/wiki/Robot-Seguidor-de-Luz"
+                          class="image"><img src="images/pic06.jpg" alt=""></a>
+                          <div class="inner">
+                            <div id="spRSLuz" style="display:true;"> 
+                              <h4>Robot Seguidor de Luz</h4>
+                              <p style="text-align: justify;">El objetivo de este proyecto
+                                es proporcionar un primer acercamiento a la robótica y a la
+                                electrónica, abordando el control de motores y por medio de
+                                sensores y una interfaz analógica.
+                                <a href="https://github.com/ClubdeRobotica/wiki/wiki/RSLuz" target="_blank"><b>Mas Info&gt;&gt;</b></a>
+                              </p>                  
+                            </div>
+
+                            <div id="enRSLuz" style="display:none;">    
+                              <h4>Light-Follower Robot</h4>
+                              <p style="text-align: justify;" > English Version of RSLuz   
+                                <a href="https://github.com/ClubdeRobotica/wiki/wiki/RSLuz" target="_blank"><b>More Info&gt;&gt;</b></a>
+                              </p> 
+                            </div>
+
+                          </div>
+                        </article>
+                      </div>
+                    </div>
+                  </section>
+
+                  <!-- Four -->
+                  <section id="four">
+                    <div class="container" id="spParticipa" style="display: true;">
+                      <h3>Cómo Participar</h3>
+                      <p style="text-align: justify;">Si estas interesado en formar parte
+                        del club y participar en alguno de nuestros proyectos, completá
+                        nuestro <b><a href="https://docs.google.com/forms/d/15x8jML5wOEyb5q6SSyZIvmuE8bv2EupJgFnlK4BooV0"
+                          target="_blank">Formulario de Contacto </a></b>con algunos
+                          datos tuyos así podemos contactarte. O simplemente comunicate con
+                        nosotros por cualquiera de nuestros canales.</p>
+                        <blockquote style="background-color: white;"> <em><strong><b><a href="https://docs.google.com/forms/d/15x8jML5wOEyb5q6SSyZIvmuE8bv2EupJgFnlK4BooV0"
+                          target="_blank">Ir al Formulario de Contacto&nbsp;</a></b></strong></em></blockquote>
+                        </div>
+                        <div class="container" id="enParticipa" style="display: none;">
+                          <h3>How can I participate</h3>
+                          <p style="text-align: justify;">If you are interested in join us and participate in any of our projects,
+              please fill out our <b><a href="https://docs.google.com/forms/d/15x8jML5wOEyb5q6SSyZIvmuE8bv2EupJgFnlK4BooV0"
+                  target="_blank">Contact Form </a></b> with some information about yourself, so we can contact you. 
+              You can communicate with us in any of ours social networks too.
+                          </p>
+
+                          <blockquote style="background-color: white;"> <em><strong><b><a href="https://docs.google.com/forms/d/15x8jML5wOEyb5q6SSyZIvmuE8bv2EupJgFnlK4BooV0"
+                            target="_blank">Contact Form&nbsp;</a></b></strong></em></blockquote>
+                          </div>
+                        </section>
+
+                        <!-- Five -->
+
+                        <section id="five">
+                          <div class="container">
+                            <div id="spReuniones" style="display:true;">         
+                              <h3>Reuniones 2019</h3>
+                              <p style="text-align: justify;">Si bien gran parte del trabajo en
+                                los últimos años se hizo de manera remota
+                                <!--, utilizando herramientas de trabajo en la nube. --> ,a lo
+                                largo del año lectivo se fija un dia de reuniones presenciales en
+                              la facultad para trabajar físicamente en los proyectos.</p>
+                              <div class="features">
+                                <article>
+                                  <blockquote><strong>
+                                    Horario de reuniones según el proyecto: <br>
+                                    <table>
+                                      <tr><td>RSL, SUMO y RSLuz</td><td>Viernes 16 a 18hs</td></tr>
+                                      <tr><td>Cor-E Sat: Cubesat 3D Printing & COTS </td><td>Miercoles 16 a 19hs</td></tr>
+                                      <tr><td>Cohetería Experimental</td><td>Viernes 16:30 a 19:30hs</td>
+                                      </tr></table>
                 <!--Durante este año las reuniones serán todos
                 los ## nos juntamos a las ## en el ## del Edificio Central
                 de la UTN-FRC<br>-->
                 <!--El lugar para las reuniones es el Anexo del Laboratorio Central de Electrónica (Aula 30 del Edificio Central). -->
-                </strong></blockquote>
-                La Universidad en Google Maps: <br>
-                <div allign="center"> <iframe src="https://www.google.com/maps/embed?pb=%211m10%211m8%211m3%211d850.9933969957888%212d-64.19293905233356%213d-31.44239406049496%213m2%211i1024%212i768%214f13.1%215e0%213m2%211ses-419%212sar%214v1518667141719"
+              </strong></blockquote>
+              La Universidad en Google Maps: <br>
+              <div allign="center"> <iframe src="https://www.google.com/maps/embed?pb=%211m10%211m8%211m3%211d850.9933969957888%212d-64.19293905233356%213d-31.44239406049496%213m2%211i1024%212i768%214f13.1%215e0%213m2%211ses-419%212sar%214v1518667141719"
                 style="border:5" allowfullscreen="" width="300" height="300"
                 frameborder="0"></iframe>
                 <p><i>Maestro M. Lopez esq. Cruz Roja Argentina Ciudad
                 Universitaria - Córdoba Capital</i></p>
-                </div>
-                </article>
-            </div>
-            </div>      
-            
-          <div id="enReuniones" style="display:none">
-                <h3>Meetings 2019</h3>
-                <p style="text-align: justify;">Although most of the last year's work were done remotely, 
-                we arrange face-to-face meetings in the University so we can work physically in the projects.</p>
-                <div class="features">
-                <article>
-                <blockquote><strong>
+              </div>
+            </article>
+          </div>
+        </div>      
+
+        <div id="enReuniones" style="display:none">
+          <h3>Meetings 2019</h3>
+          <p style="text-align: justify;">Although most of the last year's work were done remotely, 
+          we arrange face-to-face meetings in the University so we can work physically in the projects.</p>
+          <div class="features">
+            <article>
+              <blockquote><strong>
                 Face-to-face meetings schedule by project: <br>
                 <table>
-                <tr><td>RSL, SUMO y RSLuz</td><td>Fridays 16 to 18hs</td></tr>
-                <tr><td>Cor-E Sat: Cubesat 3D Printing & COTS </td><td>Wednesdays 16 to 19hs</td></tr>
-                <tr><td>Amateur Experimental Vectors </td><td>Fridays 16:30 to 19:30hs</td>
-                </tr></table>
+                  <tr><td>RSL, SUMO y RSLuz</td><td>Fridays 16 to 18hs</td></tr>
+                  <tr><td>Cor-E Sat: Cubesat 3D Printing & COTS </td><td>Wednesdays 16 to 19hs</td></tr>
+                  <tr><td>Amateur Experimental Vectors </td><td>Fridays 16:30 to 19:30hs</td>
+                  </tr></table>
                 <!--Durante este año las reuniones serán todos
                     los ## nos juntamos a las ## en el ## del Edificio Central
                     de la UTN-FRC<br>-->
-                <!--El lugar para las reuniones es el Anexo del Laboratorio Central de Electrónica (Aula 30 del Edificio Central). -->
-                </strong></blockquote>
-                
-                The university on Google Maps: <br>
-                <div allign="center"> <iframe src="https://www.google.com/maps/embed?pb=%211m10%211m8%211m3%211d850.9933969957888%212d-64.19293905233356%213d-31.44239406049496%213m2%211i1024%212i768%214f13.1%215e0%213m2%211ses-419%212sar%214v1518667141719"
+                    <!--El lugar para las reuniones es el Anexo del Laboratorio Central de Electrónica (Aula 30 del Edificio Central). -->
+                  </strong></blockquote>
+
+                  The university on Google Maps: <br>
+                  <div allign="center"> <iframe src="https://www.google.com/maps/embed?pb=%211m10%211m8%211m3%211d850.9933969957888%212d-64.19293905233356%213d-31.44239406049496%213m2%211i1024%212i768%214f13.1%215e0%213m2%211ses-419%212sar%214v1518667141719"
                     style="border:5" allowfullscreen="" width="300" height="300"
                     frameborder="0"></iframe>
-                  <p><i>Maestro M. Lopez esq. Cruz Roja Argentina Ciudad
-                      Universitaria - Córdoba Capital</i></p>
-                </div>
+                    <p><i>Maestro M. Lopez esq. Cruz Roja Argentina Ciudad
+                    Universitaria - Córdoba Capital</i></p>
+                  </div>
                 </article>
-                </div>
+              </div>
             </div>
             <!--
-            <ul class="feature-icons">              <li class="fa-code">Desarrollo de firmwares</li>              <li class="fa-cubes">Desarrollos de hardware</li>              <li class="fa-book">Documentos Publicos</li>              <li class="fa-coffee">Reuniones</li>              <li class="fa-bolt">Lightning bolt</li>              <li class="fa-users">Miembros</li>            </ul>                       -->
-        </div>
-        </section>
-	      
-        <!-- Footer -->
-        <section id="footer">
-          <ul class="icons">
-            <li><a href="https://www.facebook.com/groups/247066238661652/" class="icon fa-facebook"><span
-                  class="label">Facebook</span></a></li>
-            <li><a href="https://www.instagram.com/cdr_frc_utn/" class="icon fa-instagram"><span
+              <ul class="feature-icons">              <li class="fa-code">Desarrollo de firmwares</li>              <li class="fa-cubes">Desarrollos de hardware</li>              <li class="fa-book">Documentos Publicos</li>              <li class="fa-coffee">Reuniones</li>              <li class="fa-bolt">Lightning bolt</li>              <li class="fa-users">Miembros</li>            </ul>                       -->
+            </div>
+          </section>
+
+          <!-- Footer -->
+          <section id="footer">
+            <ul class="icons">
+              <li><a href="https://www.facebook.com/groups/247066238661652/" class="icon fa-facebook"><span
+                class="label">Facebook</span></a></li>
+                <li><a href="https://www.instagram.com/cdr_frc_utn/" class="icon fa-instagram"><span
                   class="label">Instagram</span></a></li>
-            <li><a href="https://github.com/ClubdeRobotica" class="icon fa-github"><span
-                  class="label">Github</span></a></li>
-            <li><a href="mailto:clubrobotica.utnfrc@gmail.com" class="icon fa-envelope"><span
-                  class="label">Email</span></a></li>
-            <li><a href="https://github.com/ClubdeRobotica/wiki/wiki" class="icon fa-wikipedia-w"><span
-                  class="label">Wiki</span></a></li>
-          </ul>
-        </section>
-      </div>
-      <!-- Scripts -->
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-114361256-1"></script>
-      <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-114361256-1');
-    </script>
-      <script src="assets/js/jquery.min.js"></script>
-      <script src="assets/js/jquery.scrollzer.min.js"></script>
-      <script src="assets/js/jquery.scrolly.min.js"></script>
-      <script src="assets/js/skel.min.js"></script>
-      <script src="assets/js/util.js"></script>
-      <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-      <script src="assets/js/main.js"></script> </div>
-      <<script type="text/javascript" src="scripts/script.js"></script> </div>
-  </body>
-</html>
+                  <li><a href="https://github.com/ClubdeRobotica" class="icon fa-github"><span
+                    class="label">Github</span></a></li>
+                    <li><a href="mailto:clubrobotica.utnfrc@gmail.com" class="icon fa-envelope"><span
+                      class="label">Email</span></a></li>
+                      <li><a href="https://github.com/ClubdeRobotica/wiki/wiki" class="icon fa-wikipedia-w"><span
+                        class="label">Wiki</span></a></li>
+                      </ul>
+                    </section>
+                  </div>
+                  <!-- Scripts -->
+                  <!-- Global site tag (gtag.js) - Google Analytics -->
+                  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-114361256-1"></script>
+                  <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'UA-114361256-1');
+                  </script>
+                  <script src="assets/js/jquery.min.js"></script>
+                  <script src="assets/js/jquery.scrollzer.min.js"></script>
+                  <script src="assets/js/jquery.scrolly.min.js"></script>
+                  <script src="assets/js/skel.min.js"></script>
+                  <script src="assets/js/util.js"></script>
+                  <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+                  <script src="assets/js/main.js"></script> </div>
+                  <<script type="text/javascript" src="scripts/script.js"></script> </div>
+                </body>
+                </html>
