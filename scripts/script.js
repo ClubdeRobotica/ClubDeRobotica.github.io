@@ -25,8 +25,8 @@ function OnClickFlag(aFlag){
         document.getElementById("spDebris").style.display = "block";
         document.getElementById("spSumo").style.display = "block";
         document.getElementById("spRSL").style.display = "block";
-        document.getElementById("spSumo").style.display = "block";
-        document.getElementById("spRSL").style.display = "block";
+        document.getElementById("spVRTD").style.display = "block";
+        document.getElementById("spRSLuz").style.display = "block";
         document.getElementById("spProyectos").style.display = "block";
         document.getElementById("spParticipa").style.display = "block";
         document.getElementById("spReuniones").style.display = "block";
